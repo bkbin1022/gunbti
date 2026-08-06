@@ -1,0 +1,4 @@
+"use client";
+import { useApplicationPlanner } from "@/components/application-planner-provider";
+type PlanInput = { recruitmentId: string; specialtyName: string; branch: string; recruitmentCategory: string; applicationStartAt?: string; applicationEndAt?: string; enlistmentMonth?: string };
+export function AddRecruitmentPlanButton({ recruitment }: { recruitment: PlanInput }) { const { plans, addPlan } = useApplicationPlanner(); const added = plans.some((plan) => plan.recruitmentId === recruitment.recruitmentId); return <button className={`mt-4 h-10 rounded-lg px-3 text-sm font-semibold ${added ? "bg-emerald-100 text-emerald-900" : "border border-emerald-700 text-emerald-800"}`} disabled={added} onClick={() => addPlan(recruitment)} type="button">{added ? "지원 계획에 담김" : "지원 계획에 담기"}</button>; }

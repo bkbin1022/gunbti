@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { TestSessionProvider } from "@/components/test-session-provider";
 import { SavedSpecialtiesProvider } from "@/components/saved-specialties-provider";
+import { ApplicationPlannerProvider } from "@/components/application-planner-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +27,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><SavedSpecialtiesProvider><TestSessionProvider>{children}</TestSessionProvider></SavedSpecialtiesProvider></body>
+      <body className="min-h-full flex flex-col"><ApplicationPlannerProvider><SavedSpecialtiesProvider><TestSessionProvider>{children}</TestSessionProvider></SavedSpecialtiesProvider></ApplicationPlannerProvider></body>
     </html>
   );
 }
