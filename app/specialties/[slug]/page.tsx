@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SpecialtyReportForm } from "@/components/specialty-report-form";
+import { SaveSpecialtyButton } from "@/components/save-specialty-button";
 import { freshnessLabel, getDataFreshness } from "@/lib/data-freshness";
 import { officialSpecialties } from "@/lib/official-specialties";
 import { findActiveOfficialSpecialty } from "@/lib/official-specialty-store";
@@ -40,7 +41,7 @@ export default async function SpecialtyPage({ params }: Props) {
           <h2 className="font-bold">지원 전 확인</h2>
           <p className="mt-2">이 페이지는 특기 마스터의 명칭·코드·모집 분류만 제공합니다. 모집 시기, 자격·면허, 신체 요건, 실제 업무 환경은 매 회차 공식 모집 공고를 기준으로 달라질 수 있습니다.</p>
         </section>
-        <div className="mt-8 flex gap-3"><Link className="rounded-xl bg-emerald-700 px-4 py-3 text-sm font-semibold text-white" href="/test">내 성향으로 추천받기</Link><Link className="rounded-xl border border-stone-300 bg-white px-4 py-3 text-sm font-semibold" href="/specialties">목록으로</Link></div>
+        <div className="mt-8 flex flex-wrap gap-3"><Link className="rounded-xl bg-emerald-700 px-4 py-3 text-sm font-semibold text-white" href="/test">내 성향으로 추천받기</Link><SaveSpecialtyButton specialtyId={specialty.id} /><Link className="rounded-xl border border-stone-300 bg-white px-4 py-3 text-sm font-semibold" href="/specialties">목록으로</Link></div>
         <SpecialtyReportForm dataVersion={`official-${specialty.source.retrievedAt.slice(0, 10)}`} pageUrl={`/specialties/${specialty.slug}`} specialtyId={specialty.id} />
         <p className="mt-10 text-xs text-stone-500">출처: {specialty.source.label} · 동기화 {new Intl.DateTimeFormat("ko-KR", { dateStyle: "medium" }).format(new Date(specialty.source.retrievedAt))}</p>
       </div>

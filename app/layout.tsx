@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { TestSessionProvider } from "@/components/test-session-provider";
+import { SavedSpecialtiesProvider } from "@/components/saved-specialties-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +26,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><TestSessionProvider>{children}</TestSessionProvider></body>
+      <body className="min-h-full flex flex-col"><SavedSpecialtiesProvider><TestSessionProvider>{children}</TestSessionProvider></SavedSpecialtiesProvider></body>
     </html>
   );
 }

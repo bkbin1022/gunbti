@@ -64,6 +64,30 @@ function normalizeRecord(item, fetchedAt) {
     observedRecruitmentCount: 1,
   }, warning: null };
 }
+function recruitmentStatus(startAt, endAt, now = Date.now()) {
+  const start = startAt ? Date.parse(startAt) : Number.NaN;
+  const end = endAt ? Date.parse(endAt) : Number.NaN;
+  if (!Number.isFinite(start) || !Number.isFinite(end)) return "unknown";
+  if (now < start) return "upcoming";
+  if (now > end) return "closed";
+  if (end - now <= 3 * 24 * 60 * 60 * 1000) return "closingSoon";
+  return "open";
+}
+function normalizeRecruitment(item, fetchedAt) {
+  if (!isRecord(item)) return null;
+  const warnings = [];
+  const branch = normalizeBranch(item.gunGbnm ?? item.gunGbcd, warnings);
+  const specialtyName = readValue(item, "gsteukgiNm");
+  if (!branch || !specialtyName) return null;
+  const specialtyCode = readValue(item, "gsteukgiCd");
+  const applicationStartAt = readValue(item, "jeopsuSjdtm");
+  const applicationEndAt = readValue(item, "jeopsuJrdtm");
+  const enlistmentMonth = readValue(item, "iyyjsijakYm");
+  const year = Number(readValue(item, "mojipYy") || 0) || undefined;
+  const round = readValue(item, "mojipTms");
+  const sourceId = readValue(item, "mjiljeongNo", "mbteukgiNo") || `${branch}:${specialtyCode || specialtyName}:${year || "unknown"}:${round || "unknown"}`;
+  return { id: `mma-recruitment-${sourceId}-${specialtyCode || specialtyName}`, recruitmentId: sourceId, branch, specialtyId: confirmedMappings.get(`${branch}:${specialtyCode || specialtyName}`), officialSpecialtyCode: specialtyCode, specialtyName, recruitmentCategory: readValue(item, "mjgubNm", "mjbgteukgiNm") || "미표기", applicationYear: year, applicationRound: round, applicationStartAt, applicationEndAt, enlistmentMonth, capacity: undefined, applicantCount: undefined, competitionRatio: undefined, status: recruitmentStatus(applicationStartAt, applicationEndAt), officialSourceId: "MMA_OPENAPI_0004", sourceUrl: endpoint, fetchedAt, normalizationWarnings: warnings };
+}
 function compatibleMaster(snapshot) {
   return {
     sourceVersion: "MMA_OPENAPI_0004",
@@ -81,6 +105,9 @@ function compatibleMaster(snapshot) {
       source: { authority: "official", label: "병무청 군사특기마스터 OpenAPI", endpoint, retrievedAt: snapshot.sourceFetchedAt },
     })),
   };
+}
+function compatibleRecruitments(snapshot) {
+  return { sourceVersion: "MMA_OPENAPI_0004", retrievedAt: snapshot.sourceFetchedAt, records: snapshot.recruitmentRecords };
 }
 async function pause(milliseconds) { await new Promise((resolve) => setTimeout(resolve, milliseconds)); }
 async function fetchPage(pageNo) {
@@ -160,6 +187,7 @@ try {
   }
   const officialRecords = [...deduplicated.values()].sort((left, right) => left.branch.localeCompare(right.branch) || left.officialName.localeCompare(right.officialName, "ko-KR"));
   if (!officialRecords.length) throw new Error("NO_VALID_RECORDS");
+  const recruitmentRecords = rawItems.map((item) => normalizeRecruitment(item, fetchedAt)).filter(Boolean);
   const unmatched = officialRecords.filter((record) => !confirmedMappings.has(record.sourceRecordId));
   const snapshot = {
     id: `mma-${fetchedAt.replace(/[:.]/g, "-")}`,
@@ -173,6 +201,7 @@ try {
     matchedRecordCount: officialRecords.length - unmatched.length,
     unmatchedRecordCount: unmatched.length,
     officialRecords,
+    recruitmentRecords,
     warnings: invalidRecords,
     sourceHash: hash(rawItems),
   };
@@ -186,6 +215,7 @@ try {
     await writeJsonAtomic(activeSnapshotPath, { ...snapshot, changes });
     await writeJsonAtomic(join(reviewDirectory, "unmatched-specialties.json"), unmatched.map((record) => ({ sourceRecordId: record.sourceRecordId, branch: record.branch, officialName: record.officialName, specialtyCode: record.specialtyCode, candidateInternalIds: [], status: "unreviewed" })));
     await writeJsonAtomic(join(generatedDirectory, "official-specialty-master.json"), compatibleMaster(snapshot));
+    await writeJsonAtomic(join(generatedDirectory, "recruitments.json"), compatibleRecruitments(snapshot));
   }
   console.log(JSON.stringify(result, null, 2));
 } catch (error) {
