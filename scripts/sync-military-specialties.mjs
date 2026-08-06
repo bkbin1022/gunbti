@@ -9,7 +9,11 @@ async function fetchPage(pageNo) {
   url.search = new URLSearchParams({ ServiceKey: serviceKey, numOfRows: "100", pageNo: String(pageNo), type: "json" }).toString();
   const response = await fetch(url);
   if (!response.ok) throw new Error("병무청 API 요청 실패: HTTP " + response.status);
-  const payload = await response.json(); const body = payload?.response?.body; const header = payload?.response?.header;
+  const payload = await response.json();
+  if (process.env.MMA_DEBUG === "1" && pageNo === 1) {
+    console.log(JSON.stringify(payload, null, 2));
+  }
+  const body = payload?.response?.body; const header = payload?.response?.header;
   if (header?.resultCode && header.resultCode !== "00") throw new Error("병무청 API 오류: " + header.resultMsg);
   return { items: body?.items?.item ?? [], totalCount: Number(body?.totalCount ?? 0) };
 }
