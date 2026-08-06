@@ -11,6 +11,8 @@ const generatedDirectory = join(root, "generated");
 const activeSnapshotPath = join(snapshotDirectory, "active.json");
 const lockPath = join(snapshotDirectory, ".sync-lock");
 const isDryRun = process.argv.includes("--dry-run");
+const requestTimeoutMs = Number(process.env.MMA_REQUEST_TIMEOUT_MS || 20_000);
+const maximumAttempts = Number(process.env.MMA_MAX_ATTEMPTS || 4);
 const rawServiceKey = process.env.MILITARY_KEY;
 const serviceKey = rawServiceKey ? decodeURIComponent(rawServiceKey) : "";
 const branchMap = new Map([["육군", "army"], ["해군", "navy"], ["공군", "airForce"], ["해병", "marineCorps"], ["ARMY", "army"], ["NAVY", "navy"], ["AIR FORCE", "airForce"], ["MARINE CORPS", "marineCorps"]]);
@@ -112,11 +114,11 @@ function compatibleRecruitments(snapshot) {
 async function pause(milliseconds) { await new Promise((resolve) => setTimeout(resolve, milliseconds)); }
 async function fetchPage(pageNo) {
   let finalError;
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
+  for (let attempt = 1; attempt <= maximumAttempts; attempt += 1) {
     try {
       const url = new URL(endpoint);
       url.search = new URLSearchParams({ ServiceKey: serviceKey, numOfRows: "100", pageNo: String(pageNo), type: "json" }).toString();
-      const response = await fetch(url, { signal: AbortSignal.timeout(10_000) });
+      const response = await fetch(url, { signal: AbortSignal.timeout(requestTimeoutMs) });
       if (response.status === 401 || response.status === 403) throw new Error("API_AUTHENTICATION");
       if (response.status === 429) throw new Error("API_RATE_LIMIT");
       if (!response.ok) throw new Error(response.status >= 500 ? "API_SERVER_ERROR" : "API_HTTP_" + response.status);
@@ -134,8 +136,8 @@ async function fetchPage(pageNo) {
       finalError = error;
       const code = error instanceof Error ? error.message : "UNKNOWN_ERROR";
       const retriable = ["API_RATE_LIMIT", "API_SERVER_ERROR"].includes(code) || code.startsWith("API_HTTP_5") || code === "fetch failed" || code === "The operation was aborted due to timeout";
-      if (!retriable || attempt === 3) break;
-      await pause(250 * (2 ** (attempt - 1)));
+      if (!retriable || attempt === maximumAttempts) break;
+      await pause(500 * (2 ** (attempt - 1)));
     }
   }
   const message = finalError instanceof Error ? finalError.message : "UNKNOWN_ERROR";
