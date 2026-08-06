@@ -33,6 +33,7 @@ export interface MilitaryJob {
   relatedCertificates: string[];
   frequentlyAskedQuestions: { question: string; answer: string }[];
   relatedJobSlugs: string[];
+  officialSpecialtySlugs: string[];
   updatedAt: string;
   sources?: { label: string; url?: string }[];
 }

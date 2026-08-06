@@ -2,6 +2,19 @@ import { emptyTraitProfile, type MilitaryBranch, type MilitaryJob, type TraitPro
 
 const profile = (values: Partial<TraitProfile>): TraitProfile => ({ ...emptyTraitProfile(), ...values });
 const goals = (values: Partial<Record<UserGoal, number>>): Record<UserGoal, number> => ({ certification: 3, transfer: 3, english: 3, fitness: 3, development: 3, major: 3, comfortable: 3, ...values });
+const officialSpecialtySlugsByJob: Record<string, string[]> = {
+  "army-intelligence": ["army-151-101"],
+  "army-communications": ["army-171-101", "army-171-104", "army-171-105"],
+  "army-electronics": ["army-152-101"],
+  "army-instructor": ["army-111292"],
+  "army-administration": ["army-311-101"],
+  "army-military-police": ["army-321-101"],
+  "air-transport": ["air-force-50"],
+  "air-info-comms": ["air-force-21", "air-force-57"],
+  "navy-communications": ["navy-25"],
+  "navy-cook": ["navy-11-05"],
+  "marine-logistics": ["marine-corps-32-01"],
+};
 const job = (id: string, name: string, branch: MilitaryBranch, description: string, traits: Partial<TraitProfile>, goalFit: Partial<Record<UserGoal, number>>, tags: string[]): MilitaryJob => ({
   id, slug: id, name, branch, shortDescription: description, traits: profile(traits), goalFit: goals(goalFit), tags,
   category: tags[0], overview: `${description} 세부 역할과 근무 환경은 부대와 운영 여건에 따라 달라질 수 있습니다.`,
@@ -10,7 +23,7 @@ const job = (id: string, name: string, branch: MilitaryBranch, description: stri
   selfDevelopment: { estimatedOpportunity: (goalFit.development ?? 3) >= 4 ? "high" : (goalFit.comfortable ?? 3) >= 4 ? "medium" : "low", suitableGoals: (Object.entries(goals(goalFit)) as [UserGoal, number][]).filter(([, value]) => value >= 4).map(([goal]) => goal), notes: "자기계발 여건은 부대 일정과 개인 업무 상황에 따라 달라질 수 있습니다." },
   dailyRoutine: [{ title: "업무 준비", description: "당일 역할과 안전·운영 관련 사항을 확인합니다." }, { title: "주요 지원 업무", description: description }, { title: "정리와 인수인계", description: "기록을 정리하고 다음 업무를 준비합니다." }],
   relatedMajors: tags.includes("IT") || tags.includes("통신") ? ["컴퓨터공학", "전자공학"] : tags.includes("기계") || tags.includes("정비") ? ["기계공학", "자동차공학"] : ["경영", "행정"],
-  relatedCertificates: ["관련 분야 기초 자격 또는 교육 이수 여부를 공식 공고에서 확인"], frequentlyAskedQuestions: [{ question: "실제 업무 환경은 항상 같은가요?", answer: "아니요. 부대, 시기, 직무 세부 배치와 운영 여건에 따라 달라질 수 있습니다." }], relatedJobSlugs: [], updatedAt: "2026-08-06",
+  relatedCertificates: ["관련 분야 기초 자격 또는 교육 이수 여부를 공식 공고에서 확인"], frequentlyAskedQuestions: [{ question: "실제 업무 환경은 항상 같은가요?", answer: "아니요. 부대, 시기, 직무 세부 배치와 운영 여건에 따라 달라질 수 있습니다." }], relatedJobSlugs: [], officialSpecialtySlugs: officialSpecialtySlugsByJob[id] ?? [], updatedAt: "2026-08-06",
 });
 
 export const militaryJobs: MilitaryJob[] = [
