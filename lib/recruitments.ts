@@ -1,4 +1,5 @@
 import recruitmentDataset from "@/data/military/generated/recruitments.json";
+export { calculateCompetitionRatio, competitionLabel } from "@/lib/competition-utils";
 
 export type RecruitmentStatus = "upcoming" | "open" | "closingSoon" | "closed" | "beforeEnlistment" | "unknown";
 export type RecruitmentBranch = "army" | "navy" | "airForce" | "marineCorps";
@@ -31,19 +32,6 @@ export const recruitmentBranchLabels: Record<RecruitmentBranch, string> = { army
 const rawRecords = Array.isArray(recruitmentDataset.records) ? recruitmentDataset.records : [];
 export const recruitmentRecords = rawRecords as RecruitmentCompetitionRecord[];
 export const recruitmentLastSyncedAt = recruitmentDataset.retrievedAt || undefined;
-
-export function calculateCompetitionRatio(capacity?: number, applicantCount?: number) {
-  return capacity && capacity > 0 && applicantCount !== undefined ? applicantCount / capacity : undefined;
-}
-
-export function competitionLabel(ratio?: number) {
-  if (ratio === undefined) return "경쟁률 정보 없음";
-  if (ratio < 1) return "지원자 부족";
-  if (ratio < 2) return "1~2:1 수준";
-  if (ratio < 4) return "경쟁 있음";
-  if (ratio < 7) return "경쟁 높음";
-  return "매우 높음";
-}
 
 export function filterRecruitments(records: RecruitmentCompetitionRecord[], params: { branch?: string; status?: string; query?: string; currentOnly?: string }) {
   const keyword = params.query?.trim().toLowerCase();

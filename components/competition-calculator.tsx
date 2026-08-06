@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { competitionLabel } from "@/lib/recruitments";
+import { competitionLabel } from "@/lib/competition-utils";
 
 export function CompetitionCalculator() {
   const [capacity, setCapacity] = useState("");

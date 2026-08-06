@@ -1,0 +1,2202 @@
+[
+  {
+    "sourceRecordId": "airForce:45.01",
+    "branch": "airForce",
+    "officialName": "교육훈련_3D모델링",
+    "specialtyCode": "45.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:45.03",
+    "branch": "airForce",
+    "officialName": "교육훈련_디자인",
+    "specialtyCode": "45.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:45.04",
+    "branch": "airForce",
+    "officialName": "교육훈련_영상/사진",
+    "specialtyCode": "45.04",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:45.02",
+    "branch": "airForce",
+    "officialName": "교육훈련_프로그램개발",
+    "specialtyCode": "45.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:34",
+    "branch": "airForce",
+    "officialName": "군견관리병",
+    "specialtyCode": "34",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:25",
+    "branch": "airForce",
+    "officialName": "군악병",
+    "specialtyCode": "25",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:18",
+    "branch": "airForce",
+    "officialName": "기계",
+    "specialtyCode": "18",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:55",
+    "branch": "airForce",
+    "officialName": "무인항공기운용병",
+    "specialtyCode": "55",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:46",
+    "branch": "airForce",
+    "officialName": "비파괴검사병",
+    "specialtyCode": "46",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:42.03",
+    "branch": "airForce",
+    "officialName": "식별보조_러시아어",
+    "specialtyCode": "42.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:42.02",
+    "branch": "airForce",
+    "officialName": "식별보조_일본어",
+    "specialtyCode": "42.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:42.01",
+    "branch": "airForce",
+    "officialName": "식별보조_중국어",
+    "specialtyCode": "42.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:26",
+    "branch": "airForce",
+    "officialName": "어학병",
+    "specialtyCode": "26",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:47",
+    "branch": "airForce",
+    "officialName": "우주기상분석병",
+    "specialtyCode": "47",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:902",
+    "branch": "airForce",
+    "officialName": "유급_기관.기체",
+    "specialtyCode": "902",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:905",
+    "branch": "airForce",
+    "officialName": "유급_전력설비",
+    "specialtyCode": "905",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:903",
+    "branch": "airForce",
+    "officialName": "유급_전자",
+    "specialtyCode": "903",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:904",
+    "branch": "airForce",
+    "officialName": "유급_조리",
+    "specialtyCode": "904",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:906",
+    "branch": "airForce",
+    "officialName": "유급_토목건축",
+    "specialtyCode": "906",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:17",
+    "branch": "airForce",
+    "officialName": "의무",
+    "specialtyCode": "17",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:24",
+    "branch": "airForce",
+    "officialName": "의장병",
+    "specialtyCode": "24",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:111",
+    "branch": "airForce",
+    "officialName": "일반(연모집)",
+    "specialtyCode": "111",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:44",
+    "branch": "airForce",
+    "officialName": "전문자격의무병",
+    "specialtyCode": "44",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:15",
+    "branch": "airForce",
+    "officialName": "전자계산",
+    "specialtyCode": "15",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:30",
+    "branch": "airForce",
+    "officialName": "정보보호병",
+    "specialtyCode": "30",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:40",
+    "branch": "airForce",
+    "officialName": "정훈병",
+    "specialtyCode": "40",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:53",
+    "branch": "airForce",
+    "officialName": "조리병",
+    "specialtyCode": "53",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:19",
+    "branch": "airForce",
+    "officialName": "차량운전",
+    "specialtyCode": "19",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:20",
+    "branch": "airForce",
+    "officialName": "차량정비",
+    "specialtyCode": "20",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:41.01",
+    "branch": "airForce",
+    "officialName": "콘텐츠_그래픽디자인",
+    "specialtyCode": "41.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:41.02",
+    "branch": "airForce",
+    "officialName": "콘텐츠_영상촬영편집",
+    "specialtyCode": "41.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:41.03",
+    "branch": "airForce",
+    "officialName": "콘텐츠_일러스트웹툰",
+    "specialtyCode": "41.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:31",
+    "branch": "airForce",
+    "officialName": "특수임무군사경찰",
+    "specialtyCode": "31",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:16",
+    "branch": "airForce",
+    "officialName": "화생방",
+    "specialtyCode": "16",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "airForce:56",
+    "branch": "airForce",
+    "officialName": "AI·데이터개발병",
+    "specialtyCode": "56",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B182.101",
+    "branch": "army",
+    "officialName": "(임기제)공격헬기정비",
+    "specialtyCode": "B182.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B163.113",
+    "branch": "army",
+    "officialName": "(임기제)굴착기운용",
+    "specialtyCode": "B163.113",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B182.104",
+    "branch": "army",
+    "officialName": "(임기제)기동헬기운용",
+    "specialtyCode": "B182.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B175.101",
+    "branch": "army",
+    "officialName": "(임기제)네트워크운용/정비",
+    "specialtyCode": "B175.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B171.102",
+    "branch": "army",
+    "officialName": "(임기제)무선전송장비운용/정비",
+    "specialtyCode": "B171.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B141.101",
+    "branch": "army",
+    "officialName": "(임기제)발칸운용/정비",
+    "specialtyCode": "B141.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B172.102",
+    "branch": "army",
+    "officialName": "(임기제)위성운용/정비",
+    "specialtyCode": "B172.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B222.109",
+    "branch": "army",
+    "officialName": "(임기제)자주포야전정비",
+    "specialtyCode": "B222.109",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B222.114",
+    "branch": "army",
+    "officialName": "(임기제)장갑차야전정비",
+    "specialtyCode": "B222.114",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B162.104",
+    "branch": "army",
+    "officialName": "(임기제)전기설비",
+    "specialtyCode": "B162.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B175.102",
+    "branch": "army",
+    "officialName": "(임기제)전술C4I운용/정비",
+    "specialtyCode": "B175.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B222.105",
+    "branch": "army",
+    "officialName": "(임기제)전차정비",
+    "specialtyCode": "B222.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B231.107",
+    "branch": "army",
+    "officialName": "(임기제)조리",
+    "specialtyCode": "B231.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B241.107",
+    "branch": "army",
+    "officialName": "(임기제)차량부대정비",
+    "specialtyCode": "B241.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B224.101",
+    "branch": "army",
+    "officialName": "(임기제)차량정비",
+    "specialtyCode": "B224.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B222.101",
+    "branch": "army",
+    "officialName": "(임기제)총기정비",
+    "specialtyCode": "B222.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B225.101",
+    "branch": "army",
+    "officialName": "(임기제)탄약관리",
+    "specialtyCode": "B225.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B222.102",
+    "branch": "army",
+    "officialName": "(임기제)화포정비",
+    "specialtyCode": "B222.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B131.107",
+    "branch": "army",
+    "officialName": "(임기제)K-9자주포조종",
+    "specialtyCode": "B131.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B131.108",
+    "branch": "army",
+    "officialName": "(임기제)K-9자주포화포/장갑정비",
+    "specialtyCode": "B131.108",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B121.101",
+    "branch": "army",
+    "officialName": "(임기제)K계열전차승무",
+    "specialtyCode": "B121.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:B172.101",
+    "branch": "army",
+    "officialName": "(임기제)MW운용/정비",
+    "specialtyCode": "B172.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:131.103",
+    "branch": "army",
+    "officialName": "155mm자주포병",
+    "specialtyCode": "131.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:321273",
+    "branch": "army",
+    "officialName": "33경호병",
+    "specialtyCode": "321273",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:153.101",
+    "branch": "army",
+    "officialName": "감시장비운용",
+    "specialtyCode": "153.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.104",
+    "branch": "army",
+    "officialName": "견인차량운전",
+    "specialtyCode": "241.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M241.104",
+    "branch": "army",
+    "officialName": "견인차량운전(중졸)",
+    "specialtyCode": "M241.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:131.101",
+    "branch": "army",
+    "officialName": "견인포병",
+    "specialtyCode": "131.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.107",
+    "branch": "army",
+    "officialName": "공기압축기운용",
+    "specialtyCode": "163.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.102",
+    "branch": "army",
+    "officialName": "공병장비정비",
+    "specialtyCode": "224.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341.101",
+    "branch": "army",
+    "officialName": "공보정훈",
+    "specialtyCode": "341.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.103",
+    "branch": "army",
+    "officialName": "교량전차조종",
+    "specialtyCode": "163.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:171.107",
+    "branch": "army",
+    "officialName": "교환시설운용/정비",
+    "specialtyCode": "171.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.109",
+    "branch": "army",
+    "officialName": "구난차량운전",
+    "specialtyCode": "241.109",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M241.109",
+    "branch": "army",
+    "officialName": "구난차량운전(중졸)",
+    "specialtyCode": "M241.109",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:E00001",
+    "branch": "army",
+    "officialName": "국군체육특기병",
+    "specialtyCode": "E00001",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:900101",
+    "branch": "army",
+    "officialName": "군사과학기술병",
+    "specialtyCode": "900101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:342.101.",
+    "branch": "army",
+    "officialName": "군악",
+    "specialtyCode": "342.101.",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.113",
+    "branch": "army",
+    "officialName": "굴착기운용",
+    "specialtyCode": "163.113",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M163.113",
+    "branch": "army",
+    "officialName": "굴착기운용(중졸)",
+    "specialtyCode": "M163.113",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341336",
+    "branch": "army",
+    "officialName": "그래픽디자이너병",
+    "specialtyCode": "341336",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:471277",
+    "branch": "army",
+    "officialName": "기독교군종병",
+    "specialtyCode": "471277",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:182.104",
+    "branch": "army",
+    "officialName": "기동헬기운용",
+    "specialtyCode": "182.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175.101",
+    "branch": "army",
+    "officialName": "네트워크운용/정비",
+    "specialtyCode": "175.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.102",
+    "branch": "army",
+    "officialName": "다목적굴착기운전",
+    "specialtyCode": "163.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:221.101",
+    "branch": "army",
+    "officialName": "대공포/유도무기정비",
+    "specialtyCode": "221.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.109",
+    "branch": "army",
+    "officialName": "도저운용",
+    "specialtyCode": "163.109",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.104",
+    "branch": "army",
+    "officialName": "도하장비조종",
+    "specialtyCode": "163.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001603",
+    "branch": "army",
+    "officialName": "독일어어학병",
+    "specialtyCode": "0001603",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:A001",
+    "branch": "army",
+    "officialName": "동반입대병",
+    "specialtyCode": "A001",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:156101",
+    "branch": "army",
+    "officialName": "드론운용/정비병",
+    "specialtyCode": "156101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:152.103",
+    "branch": "army",
+    "officialName": "땅굴탐지",
+    "specialtyCode": "152.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001606",
+    "branch": "army",
+    "officialName": "러시아어어학병",
+    "specialtyCode": "0001606",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:174.101",
+    "branch": "army",
+    "officialName": "레이다운용/정비",
+    "specialtyCode": "174.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.112",
+    "branch": "army",
+    "officialName": "로더운전",
+    "specialtyCode": "163.112",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:221.102",
+    "branch": "army",
+    "officialName": "로켓무기정비",
+    "specialtyCode": "221.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:223.103",
+    "branch": "army",
+    "officialName": "무선장비정비",
+    "specialtyCode": "223.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:171.102",
+    "branch": "army",
+    "officialName": "무선전송장비운용/정비",
+    "specialtyCode": "171.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.106",
+    "branch": "army",
+    "officialName": "물자근무지원",
+    "specialtyCode": "231.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.114",
+    "branch": "army",
+    "officialName": "발전기운용/정비",
+    "specialtyCode": "163.114",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.103",
+    "branch": "army",
+    "officialName": "발전기정비",
+    "specialtyCode": "224.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.101",
+    "branch": "army",
+    "officialName": "발칸운용/정비",
+    "specialtyCode": "141.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:143.101",
+    "branch": "army",
+    "officialName": "방공레이더운용/정비",
+    "specialtyCode": "143.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.104",
+    "branch": "army",
+    "officialName": "방공작전통제",
+    "specialtyCode": "141.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:211295",
+    "branch": "army",
+    "officialName": "방사능분석연구보조병",
+    "specialtyCode": "211295",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:162.103",
+    "branch": "army",
+    "officialName": "배관/기계설비",
+    "specialtyCode": "162.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M162.103",
+    "branch": "army",
+    "officialName": "배관/기계설비(중졸)",
+    "specialtyCode": "M162.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:471279",
+    "branch": "army",
+    "officialName": "불교군종병",
+    "specialtyCode": "471279",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.103",
+    "branch": "army",
+    "officialName": "비호운용/정비",
+    "specialtyCode": "141.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:133.103",
+    "branch": "army",
+    "officialName": "사격지휘",
+    "specialtyCode": "133.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175106",
+    "branch": "army",
+    "officialName": "사이버작전병",
+    "specialtyCode": "175106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341.103",
+    "branch": "army",
+    "officialName": "사진운용/정비",
+    "specialtyCode": "341.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341337",
+    "branch": "army",
+    "officialName": "사진콘텐츠디자이너병",
+    "specialtyCode": "341337",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:243.102",
+    "branch": "army",
+    "officialName": "선박운용",
+    "specialtyCode": "243.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M243.102",
+    "branch": "army",
+    "officialName": "선박운용(중졸)",
+    "specialtyCode": "M243.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:162.102",
+    "branch": "army",
+    "officialName": "소방장비",
+    "specialtyCode": "162.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M241.100",
+    "branch": "army",
+    "officialName": "수송운용(중졸)",
+    "specialtyCode": "M241.100",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.100",
+    "branch": "army",
+    "officialName": "수송운용(차량운전)",
+    "specialtyCode": "241.100",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001602",
+    "branch": "army",
+    "officialName": "스페인어어학병",
+    "specialtyCode": "0001602",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:152101",
+    "branch": "army",
+    "officialName": "신호정보/전자전운용",
+    "specialtyCode": "152101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001610",
+    "branch": "army",
+    "officialName": "아랍어어학병",
+    "specialtyCode": "0001610",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:173.101",
+    "branch": "army",
+    "officialName": "암호운용",
+    "specialtyCode": "173.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:161.104",
+    "branch": "army",
+    "officialName": "야전건설",
+    "specialtyCode": "161.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M161.104",
+    "branch": "army",
+    "officialName": "야전건설(중졸)",
+    "specialtyCode": "M161.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:161.101",
+    "branch": "army",
+    "officialName": "야전공병",
+    "specialtyCode": "161.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:H001",
+    "branch": "army",
+    "officialName": "연고지복무병",
+    "specialtyCode": "H001",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.104",
+    "branch": "army",
+    "officialName": "연료관리",
+    "specialtyCode": "231.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:211.102",
+    "branch": "army",
+    "officialName": "연막",
+    "specialtyCode": "211.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341.102",
+    "branch": "army",
+    "officialName": "영상제작",
+    "specialtyCode": "341.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:341335",
+    "branch": "army",
+    "officialName": "영상콘텐츠디자이너병",
+    "specialtyCode": "341335",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001600",
+    "branch": "army",
+    "officialName": "영어어학병",
+    "specialtyCode": "0001600",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.102",
+    "branch": "army",
+    "officialName": "영현등록",
+    "specialtyCode": "231.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.102",
+    "branch": "army",
+    "officialName": "오리콘운용/정비",
+    "specialtyCode": "141.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.104",
+    "branch": "army",
+    "officialName": "용접/기계공작",
+    "specialtyCode": "224.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M224.104",
+    "branch": "army",
+    "officialName": "용접/기계공작(중졸)",
+    "specialtyCode": "M224.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:172.102",
+    "branch": "army",
+    "officialName": "위성운용/정비",
+    "specialtyCode": "172.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:223.101",
+    "branch": "army",
+    "officialName": "유선장비정비",
+    "specialtyCode": "223.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:411294",
+    "branch": "army",
+    "officialName": "유해발굴감식병",
+    "specialtyCode": "411294",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:111275",
+    "branch": "army",
+    "officialName": "유해발굴기록병",
+    "specialtyCode": "111275",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.107",
+    "branch": "army",
+    "officialName": "의무장비정비",
+    "specialtyCode": "224.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:111284",
+    "branch": "army",
+    "officialName": "의장병",
+    "specialtyCode": "111284",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y411.101",
+    "branch": "army",
+    "officialName": "일반의무(연모집)",
+    "specialtyCode": "Y411.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001604",
+    "branch": "army",
+    "officialName": "일본어어학병",
+    "specialtyCode": "0001604",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:222.109",
+    "branch": "army",
+    "officialName": "자주포야전정비",
+    "specialtyCode": "222.109",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.101",
+    "branch": "army",
+    "officialName": "장갑전투도저운전",
+    "specialtyCode": "163.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:123.102",
+    "branch": "army",
+    "officialName": "장갑차부대정비",
+    "specialtyCode": "123.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:222.114",
+    "branch": "army",
+    "officialName": "장갑차야전정비",
+    "specialtyCode": "222.114",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y123.101",
+    "branch": "army",
+    "officialName": "장갑차조종(연모집)",
+    "specialtyCode": "Y123.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:226.101",
+    "branch": "army",
+    "officialName": "장비수리부속공구보급",
+    "specialtyCode": "226.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:161.103",
+    "branch": "army",
+    "officialName": "장애물운용(E)",
+    "specialtyCode": "161.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:161.102",
+    "branch": "army",
+    "officialName": "장애물운용(M)",
+    "specialtyCode": "161.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:331.101",
+    "branch": "army",
+    "officialName": "재정회계",
+    "specialtyCode": "331.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:162.104",
+    "branch": "army",
+    "officialName": "전기설비",
+    "specialtyCode": "162.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M162.104",
+    "branch": "army",
+    "officialName": "전기설비(중졸)",
+    "specialtyCode": "M162.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.101",
+    "branch": "army",
+    "officialName": "전문간호",
+    "specialtyCode": "412.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.106",
+    "branch": "army",
+    "officialName": "전문물리치료",
+    "specialtyCode": "412.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.104",
+    "branch": "army",
+    "officialName": "전문방사선촬영",
+    "specialtyCode": "412.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.105",
+    "branch": "army",
+    "officialName": "전문약제",
+    "specialtyCode": "412.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.103",
+    "branch": "army",
+    "officialName": "전문임상병리",
+    "specialtyCode": "412.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:412.102",
+    "branch": "army",
+    "officialName": "전문치과",
+    "specialtyCode": "412.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175.102",
+    "branch": "army",
+    "officialName": "전술C4I운용/정비",
+    "specialtyCode": "175.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:242.101",
+    "branch": "army",
+    "officialName": "전장이동통제",
+    "specialtyCode": "242.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:222.105",
+    "branch": "army",
+    "officialName": "전차정비",
+    "specialtyCode": "222.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175104",
+    "branch": "army",
+    "officialName": "정보보호병",
+    "specialtyCode": "175104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175.103",
+    "branch": "army",
+    "officialName": "정보체계운용/정비",
+    "specialtyCode": "175.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.105",
+    "branch": "army",
+    "officialName": "정수장비운용",
+    "specialtyCode": "163.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.107",
+    "branch": "army",
+    "officialName": "조리",
+    "specialtyCode": "231.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M231.107",
+    "branch": "army",
+    "officialName": "조리(중졸)",
+    "specialtyCode": "M231.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001605",
+    "branch": "army",
+    "officialName": "중국어어학병",
+    "specialtyCode": "0001605",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.105",
+    "branch": "army",
+    "officialName": "지게차운전",
+    "specialtyCode": "241.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M241.105",
+    "branch": "army",
+    "officialName": "지게차운전(중졸)",
+    "specialtyCode": "M241.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:311334",
+    "branch": "army",
+    "officialName": "지식재산관리병",
+    "specialtyCode": "311334",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.103",
+    "branch": "army",
+    "officialName": "지원보급",
+    "specialtyCode": "231.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:D001",
+    "branch": "army",
+    "officialName": "직계가족복무부대지원입대병",
+    "specialtyCode": "D001",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.107",
+    "branch": "army",
+    "officialName": "차량부대정비",
+    "specialtyCode": "241.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:M241.107",
+    "branch": "army",
+    "officialName": "차량부대정비(중졸)",
+    "specialtyCode": "M241.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.101",
+    "branch": "army",
+    "officialName": "차량정비",
+    "specialtyCode": "224.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y241.106",
+    "branch": "army",
+    "officialName": "차륜형장갑차운전(연모집)",
+    "specialtyCode": "Y241.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.106",
+    "branch": "army",
+    "officialName": "천마운용/정비",
+    "specialtyCode": "141.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:471278",
+    "branch": "army",
+    "officialName": "천주교군종병",
+    "specialtyCode": "471278",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:163.108",
+    "branch": "army",
+    "officialName": "크레인운용",
+    "specialtyCode": "163.108",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.113",
+    "branch": "army",
+    "officialName": "크레인차량운전",
+    "specialtyCode": "241.113",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:225.101",
+    "branch": "army",
+    "officialName": "탄약관리",
+    "specialtyCode": "225.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:152296",
+    "branch": "army",
+    "officialName": "탐지분석병",
+    "specialtyCode": "152296",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:223.106",
+    "branch": "army",
+    "officialName": "특수통신장비정비",
+    "specialtyCode": "223.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:321102",
+    "branch": "army",
+    "officialName": "특임군사경찰",
+    "specialtyCode": "321102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:112100",
+    "branch": "army",
+    "officialName": "특전병",
+    "specialtyCode": "112100",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:231.101",
+    "branch": "army",
+    "officialName": "편성보급",
+    "specialtyCode": "231.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:133.106",
+    "branch": "army",
+    "officialName": "포병레이더",
+    "specialtyCode": "133.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:133.107",
+    "branch": "army",
+    "officialName": "포병측지",
+    "specialtyCode": "133.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:0001601",
+    "branch": "army",
+    "officialName": "프랑스어어학병",
+    "specialtyCode": "0001601",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:181.101",
+    "branch": "army",
+    "officialName": "항공운항/관제",
+    "specialtyCode": "181.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:243.101",
+    "branch": "army",
+    "officialName": "항만운영",
+    "specialtyCode": "243.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:134.101",
+    "branch": "army",
+    "officialName": "현무포병",
+    "specialtyCode": "134.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:211.101",
+    "branch": "army",
+    "officialName": "화생방",
+    "specialtyCode": "211.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:211239",
+    "branch": "army",
+    "officialName": "화생방시험병",
+    "specialtyCode": "211239",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:224.106",
+    "branch": "army",
+    "officialName": "화생방장비정비",
+    "specialtyCode": "224.106",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:211.104",
+    "branch": "army",
+    "officialName": "화생방정찰",
+    "specialtyCode": "211.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y211.103",
+    "branch": "army",
+    "officialName": "화생방제독(연모집)",
+    "specialtyCode": "Y211.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:331267",
+    "branch": "army",
+    "officialName": "회계원가비용분석병",
+    "specialtyCode": "331267",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:141.105",
+    "branch": "army",
+    "officialName": "휴대용유도무기운용/정비",
+    "specialtyCode": "141.105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:111000",
+    "branch": "army",
+    "officialName": "JSA경비병",
+    "specialtyCode": "111000",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:123.103",
+    "branch": "army",
+    "officialName": "K-21보병전투차량승무",
+    "specialtyCode": "123.103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:241.108",
+    "branch": "army",
+    "officialName": "K-53계열차량운전",
+    "specialtyCode": "241.108",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y131.104",
+    "branch": "army",
+    "officialName": "K-55자주포조종(연모집)",
+    "specialtyCode": "Y131.104",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:Y131.107",
+    "branch": "army",
+    "officialName": "K-9자주포조종(연모집)",
+    "specialtyCode": "Y131.107",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:132.102",
+    "branch": "army",
+    "officialName": "K239포병",
+    "specialtyCode": "132.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:122.101",
+    "branch": "army",
+    "officialName": "K계열전차부대정비",
+    "specialtyCode": "122.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:121.101",
+    "branch": "army",
+    "officialName": "K계열전차승무",
+    "specialtyCode": "121.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:121.102",
+    "branch": "army",
+    "officialName": "M계열전차승무",
+    "specialtyCode": "121.102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:321103",
+    "branch": "army",
+    "officialName": "MC군사경찰",
+    "specialtyCode": "321103",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:172.101",
+    "branch": "army",
+    "officialName": "MW운용/정비",
+    "specialtyCode": "172.101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "army:175105",
+    "branch": "army",
+    "officialName": "SW개발병",
+    "specialtyCode": "175105",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:19.03",
+    "branch": "marineCorps",
+    "officialName": "공병",
+    "specialtyCode": "19.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:66",
+    "branch": "marineCorps",
+    "officialName": "군악병",
+    "specialtyCode": "66",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:80",
+    "branch": "marineCorps",
+    "officialName": "동반입대병",
+    "specialtyCode": "80",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:101",
+    "branch": "marineCorps",
+    "officialName": "드론운용병",
+    "specialtyCode": "101",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:23.01",
+    "branch": "marineCorps",
+    "officialName": "무기정비",
+    "specialtyCode": "23.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:17.04",
+    "branch": "marineCorps",
+    "officialName": "수색",
+    "specialtyCode": "17.04",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:55.01",
+    "branch": "marineCorps",
+    "officialName": "어학병",
+    "specialtyCode": "55.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:903",
+    "branch": "marineCorps",
+    "officialName": "유급_공병",
+    "specialtyCode": "903",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:907",
+    "branch": "marineCorps",
+    "officialName": "유급_무기정비",
+    "specialtyCode": "907",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:906",
+    "branch": "marineCorps",
+    "officialName": "유급_수송",
+    "specialtyCode": "906",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:901",
+    "branch": "marineCorps",
+    "officialName": "유급_일반",
+    "specialtyCode": "901",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:904",
+    "branch": "marineCorps",
+    "officialName": "유급_정보통신",
+    "specialtyCode": "904",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:905",
+    "branch": "marineCorps",
+    "officialName": "유급_조리",
+    "specialtyCode": "905",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:100",
+    "branch": "marineCorps",
+    "officialName": "의장병",
+    "specialtyCode": "100",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:17.01",
+    "branch": "marineCorps",
+    "officialName": "일반",
+    "specialtyCode": "17.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:D001",
+    "branch": "marineCorps",
+    "officialName": "직계가족복무부대지원입대병",
+    "specialtyCode": "D001",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:102",
+    "branch": "marineCorps",
+    "officialName": "콘텐츠운용병",
+    "specialtyCode": "102",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "marineCorps:17.05",
+    "branch": "marineCorps",
+    "officialName": "화학",
+    "specialtyCode": "17.05",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:A43",
+    "branch": "navy",
+    "officialName": "(1함대)기관",
+    "specialtyCode": "A43",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:A11",
+    "branch": "navy",
+    "officialName": "(1함대)일반",
+    "specialtyCode": "A11",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:A11.05",
+    "branch": "navy",
+    "officialName": "(1함대)조리",
+    "specialtyCode": "A11.05",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:B43",
+    "branch": "navy",
+    "officialName": "(2함대)기관",
+    "specialtyCode": "B43",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:B11",
+    "branch": "navy",
+    "officialName": "(2함대)일반",
+    "specialtyCode": "B11",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:B11.05",
+    "branch": "navy",
+    "officialName": "(2함대)조리",
+    "specialtyCode": "B11.05",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:C43",
+    "branch": "navy",
+    "officialName": "(작전사)기관",
+    "specialtyCode": "C43",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:C11.05",
+    "branch": "navy",
+    "officialName": "(작전사)조리",
+    "specialtyCode": "C11.05",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:46",
+    "branch": "navy",
+    "officialName": "건축/토목",
+    "specialtyCode": "46",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:36",
+    "branch": "navy",
+    "officialName": "군악병",
+    "specialtyCode": "36",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:53.01",
+    "branch": "navy",
+    "officialName": "군종병_기독교",
+    "specialtyCode": "53.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:53.03",
+    "branch": "navy",
+    "officialName": "군종병_불교",
+    "specialtyCode": "53.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:53.02",
+    "branch": "navy",
+    "officialName": "군종병_천주교",
+    "specialtyCode": "53.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:43",
+    "branch": "navy",
+    "officialName": "기관",
+    "specialtyCode": "43",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:802",
+    "branch": "navy",
+    "officialName": "동반_갑판",
+    "specialtyCode": "802",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:803",
+    "branch": "navy",
+    "officialName": "동반_군사경찰",
+    "specialtyCode": "803",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:66",
+    "branch": "navy",
+    "officialName": "드론운용정비병",
+    "specialtyCode": "66",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:36.01",
+    "branch": "navy",
+    "officialName": "문화홍보병",
+    "specialtyCode": "36.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:57",
+    "branch": "navy",
+    "officialName": "미디어병",
+    "specialtyCode": "57",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:63",
+    "branch": "navy",
+    "officialName": "빅데이터분석병",
+    "specialtyCode": "63",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:48",
+    "branch": "navy",
+    "officialName": "수송",
+    "specialtyCode": "48",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11.64",
+    "branch": "navy",
+    "officialName": "심해잠수병",
+    "specialtyCode": "11.64",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:55.04",
+    "branch": "navy",
+    "officialName": "어학병_러시아어",
+    "specialtyCode": "55.04",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:55.01",
+    "branch": "navy",
+    "officialName": "어학병_영어",
+    "specialtyCode": "55.01",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:55.02",
+    "branch": "navy",
+    "officialName": "어학병_일본어",
+    "specialtyCode": "55.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:55.03",
+    "branch": "navy",
+    "officialName": "어학병_중국어",
+    "specialtyCode": "55.03",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:64",
+    "branch": "navy",
+    "officialName": "위생관리병",
+    "specialtyCode": "64",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:902",
+    "branch": "navy",
+    "officialName": "유급_기관",
+    "specialtyCode": "902",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:904",
+    "branch": "navy",
+    "officialName": "유급_전기",
+    "specialtyCode": "904",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:908",
+    "branch": "navy",
+    "officialName": "유급_조리",
+    "specialtyCode": "908",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:907",
+    "branch": "navy",
+    "officialName": "유급_통신",
+    "specialtyCode": "907",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:49",
+    "branch": "navy",
+    "officialName": "의무",
+    "specialtyCode": "49",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:65",
+    "branch": "navy",
+    "officialName": "인공지능(AI)개발특기병",
+    "specialtyCode": "65",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11",
+    "branch": "navy",
+    "officialName": "일반",
+    "specialtyCode": "11",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:501",
+    "branch": "navy",
+    "officialName": "전기(신규)",
+    "specialtyCode": "501",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:60",
+    "branch": "navy",
+    "officialName": "전문의무병",
+    "specialtyCode": "60",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:58",
+    "branch": "navy",
+    "officialName": "전문정보병",
+    "specialtyCode": "58",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11.02",
+    "branch": "navy",
+    "officialName": "전산",
+    "specialtyCode": "11.02",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11.26",
+    "branch": "navy",
+    "officialName": "전자",
+    "specialtyCode": "11.26",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:59",
+    "branch": "navy",
+    "officialName": "정보보호병",
+    "specialtyCode": "59",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:500",
+    "branch": "navy",
+    "officialName": "정보통신",
+    "specialtyCode": "500",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:52",
+    "branch": "navy",
+    "officialName": "지식재산관리병",
+    "specialtyCode": "52",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:54",
+    "branch": "navy",
+    "officialName": "통번역병",
+    "specialtyCode": "54",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11.62",
+    "branch": "navy",
+    "officialName": "특전병",
+    "specialtyCode": "11.62",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:11.24",
+    "branch": "navy",
+    "officialName": "항공",
+    "specialtyCode": "11.24",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:62",
+    "branch": "navy",
+    "officialName": "해군과학기술연구병",
+    "specialtyCode": "62",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:43.39",
+    "branch": "navy",
+    "officialName": "화생방",
+    "specialtyCode": "43.39",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:61",
+    "branch": "navy",
+    "officialName": "CBT병",
+    "specialtyCode": "61",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  },
+  {
+    "sourceRecordId": "navy:56",
+    "branch": "navy",
+    "officialName": "SW개발병",
+    "specialtyCode": "56",
+    "candidateInternalIds": [],
+    "status": "unreviewed"
+  }
+]
