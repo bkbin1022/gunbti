@@ -1,7 +1,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-const endpoint = "http://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list";
-const serviceKey = process.env.MILITARY_KEY;
+const endpoint = "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list";
+const rawServiceKey = process.env.MILITARY_KEY;
+const serviceKey = rawServiceKey ? decodeURIComponent(rawServiceKey) : "";
 if (!serviceKey) throw new Error("MILITARY_KEY가 없습니다. .env.local에 넣은 뒤 다시 실행하세요.");
 async function fetchPage(pageNo) {
   const url = new URL(endpoint);
