@@ -156,7 +156,13 @@ function diffSnapshots(previous, next) {
   for (const [id, record] of after) {
     const prior = before.get(id);
     if (!prior) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "added", severity: "informational", requiresManualReview: false });
-    else if (hash(prior) !== hash(record)) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "contentChanged", severity: "review", requiresManualReview: true });
+    else {
+      const previousComparable = { ...prior };
+      const nextComparable = { ...record };
+      delete previousComparable.fetchedAt;
+      delete nextComparable.fetchedAt;
+      if (hash(previousComparable) !== hash(nextComparable)) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "contentChanged", severity: "review", requiresManualReview: true });
+    }
   }
   for (const [id, record] of before) if (!after.has(id)) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "removed", severity: "critical", requiresManualReview: true });
   return changes;
@@ -208,12 +214,15 @@ try {
   const previous = await getActiveSnapshot();
   const changes = diffSnapshots(previous, snapshot);
   const result = { status: previous?.sourceHash === snapshot.sourceHash ? "noChanges" : invalidRecords.length ? "partialSuccess" : "success", startedAt, completedAt: new Date().toISOString(), fetchedRecords: rawItems.length, validRecords: officialRecords.length, invalidRecords: invalidRecords.length, matchedRecords: snapshot.matchedRecordCount, unmatchedRecords: unmatched.length, addedRecords: changes.filter((change) => change.changeType === "added").length, updatedRecords: changes.filter((change) => change.changeType === "contentChanged").length, removedRecords: changes.filter((change) => change.changeType === "removed").length, unchangedRecords: previous ? Math.max(0, officialRecords.length - changes.length) : 0, warnings: invalidRecords, errors: [], snapshotId: snapshot.id };
-  if (!isDryRun && result.status !== "noChanges") {
+  if (!isDryRun) {
     await Promise.all([mkdir(rawDirectory, { recursive: true }), mkdir(reviewDirectory, { recursive: true }), mkdir(generatedDirectory, { recursive: true })]);
-    await writeJsonAtomic(join(rawDirectory, `${snapshot.id}.json`), { provider: "MMA_OPENAPI_0004", endpoint, fetchedAt, payload: rawItems, payloadHash: snapshot.sourceHash });
-    await writeJsonAtomic(join(snapshotDirectory, `${snapshot.id}.json`), { ...snapshot, changes });
-    await writeJsonAtomic(activeSnapshotPath, { ...snapshot, changes });
-    await writeJsonAtomic(join(reviewDirectory, "unmatched-specialties.json"), unmatched.map((record) => ({ sourceRecordId: record.sourceRecordId, branch: record.branch, officialName: record.officialName, specialtyCode: record.specialtyCode, candidateInternalIds: [], status: "unreviewed" })));
+    const needsSchemaUpgrade = !previous || !Array.isArray(previous.recruitmentRecords);
+    if (result.status !== "noChanges" || needsSchemaUpgrade) {
+      await writeJsonAtomic(join(rawDirectory, `${snapshot.id}.json`), { provider: "MMA_OPENAPI_0004", endpoint, fetchedAt, payload: rawItems, payloadHash: snapshot.sourceHash });
+      await writeJsonAtomic(join(snapshotDirectory, `${snapshot.id}.json`), { ...snapshot, changes });
+      await writeJsonAtomic(activeSnapshotPath, { ...snapshot, changes });
+      await writeJsonAtomic(join(reviewDirectory, "unmatched-specialties.json"), unmatched.map((record) => ({ sourceRecordId: record.sourceRecordId, branch: record.branch, officialName: record.officialName, specialtyCode: record.specialtyCode, candidateInternalIds: [], status: "unreviewed" })));
+    }
     await writeJsonAtomic(join(generatedDirectory, "official-specialty-master.json"), compatibleMaster(snapshot));
     await writeJsonAtomic(join(generatedDirectory, "recruitments.json"), compatibleRecruitments(snapshot));
   }
