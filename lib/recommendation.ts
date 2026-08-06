@@ -1,6 +1,7 @@
 import { testQuestions } from "@/data/questions";
 import { militaryJobs } from "@/data/jobs";
 import { emptyTraitProfile, traitKeys, type JobRecommendation, type TraitKey, type TraitProfile, type UserGoal } from "@/lib/recommendation-types";
+import { calculateQuestionScore } from "@/lib/test-scoring";
 
 export const traitLabels: Record<TraitKey, string> = {
   conscientiousness: "꼼꼼함", physical: "체력", leadership: "리더십", computer: "컴퓨터 활용",
@@ -20,7 +21,7 @@ export function calculateTraitProfile(answers: Record<string, number>): TraitPro
   testQuestions.forEach((question) => {
     const answer = answers[question.id];
     if (!Number.isFinite(answer)) return;
-    totals[question.trait].sum += question.reverseScored ? 6 - answer : Math.max(1, Math.min(5, answer));
+    totals[question.trait].sum += calculateQuestionScore(answer, question.reverseScored);
     totals[question.trait].count += 1;
   });
   return traitKeys.reduce<TraitProfile>((profile, trait) => ({ ...profile, [trait]: totals[trait].count ? Math.round((totals[trait].sum / totals[trait].count) * 10) / 10 : 3 }), emptyTraitProfile());

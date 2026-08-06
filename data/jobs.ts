@@ -4,7 +4,13 @@ const profile = (values: Partial<TraitProfile>): TraitProfile => ({ ...emptyTrai
 const goals = (values: Partial<Record<UserGoal, number>>): Record<UserGoal, number> => ({ certification: 3, transfer: 3, english: 3, fitness: 3, development: 3, major: 3, comfortable: 3, ...values });
 const job = (id: string, name: string, branch: MilitaryBranch, description: string, traits: Partial<TraitProfile>, goalFit: Partial<Record<UserGoal, number>>, tags: string[]): MilitaryJob => ({
   id, slug: id, name, branch, shortDescription: description, traits: profile(traits), goalFit: goals(goalFit), tags,
-  strengths: tags.slice(0, 2), weaknesses: ["부대와 보직에 따라 실제 업무 환경이 달라질 수 있습니다."], preparation: ["공식 모집 공고와 지원 요건을 확인해 보세요."],
+  category: tags[0], overview: `${description} 세부 역할과 근무 환경은 부대와 운영 여건에 따라 달라질 수 있습니다.`,
+  strengths: tags.slice(0, 2), weaknesses: ["부대와 보직에 따라 실제 업무 환경이 달라질 수 있습니다."], preparation: ["공식 모집 공고와 지원 요건을 확인해 보세요.", "관심 분야의 기초 지식과 체력 계획을 점검해 보세요."],
+  workEnvironment: { indoorLevel: 6 - (traits.outdoor ?? 3), physicalDemand: traits.physical ?? 3, scheduleRegularity: traits.repetitiveWork ?? 3, teamworkLevel: traits.leadership ?? 3, concentrationLevel: traits.conscientiousness ?? 3 },
+  selfDevelopment: { estimatedOpportunity: (goalFit.development ?? 3) >= 4 ? "high" : (goalFit.comfortable ?? 3) >= 4 ? "medium" : "low", suitableGoals: (Object.entries(goals(goalFit)) as [UserGoal, number][]).filter(([, value]) => value >= 4).map(([goal]) => goal), notes: "자기계발 여건은 부대 일정과 개인 업무 상황에 따라 달라질 수 있습니다." },
+  dailyRoutine: [{ title: "업무 준비", description: "당일 역할과 안전·운영 관련 사항을 확인합니다." }, { title: "주요 지원 업무", description: description }, { title: "정리와 인수인계", description: "기록을 정리하고 다음 업무를 준비합니다." }],
+  relatedMajors: tags.includes("IT") || tags.includes("통신") ? ["컴퓨터공학", "전자공학"] : tags.includes("기계") || tags.includes("정비") ? ["기계공학", "자동차공학"] : ["경영", "행정"],
+  relatedCertificates: ["관련 분야 기초 자격 또는 교육 이수 여부를 공식 공고에서 확인"], frequentlyAskedQuestions: [{ question: "실제 업무 환경은 항상 같은가요?", answer: "아니요. 부대, 시기, 직무 세부 배치와 운영 여건에 따라 달라질 수 있습니다." }], relatedJobSlugs: [], updatedAt: "2026-08-06",
 });
 
 export const militaryJobs: MilitaryJob[] = [

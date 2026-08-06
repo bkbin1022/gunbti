@@ -8,7 +8,7 @@ export interface TestQuestion {
   reverseScored?: boolean;
 }
 
-export const responseLabels = ["전혀 그렇지 않다", "그렇지 않은 편이다", "보통이다", "그런 편이다", "매우 그렇다"] as const;
+export const responseLabels = ["매우 그렇다", "그런 편이다", "보통이다", "그렇지 않은 편이다", "전혀 그렇지 않다"] as const;
 
 export const testQuestions: TestQuestion[] = [
   { id: "q1", question: "계획을 세우고 정해진 순서대로 일을 처리하는 편이다.", trait: "conscientiousness" },

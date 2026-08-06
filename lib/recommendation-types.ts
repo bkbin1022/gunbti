@@ -17,13 +17,24 @@ export interface MilitaryJob {
   slug: string;
   name: string;
   branch: MilitaryBranch;
+  category: string;
   shortDescription: string;
+  overview: string;
   traits: TraitProfile;
   goalFit: Record<UserGoal, number>;
   strengths: string[];
   weaknesses: string[];
   preparation: string[];
   tags: string[];
+  workEnvironment: { indoorLevel: number; physicalDemand: number; scheduleRegularity: number; teamworkLevel: number; concentrationLevel: number };
+  selfDevelopment: { estimatedOpportunity: "low" | "medium" | "high"; suitableGoals: UserGoal[]; notes: string };
+  dailyRoutine: { title: string; description: string }[];
+  relatedMajors: string[];
+  relatedCertificates: string[];
+  frequentlyAskedQuestions: { question: string; answer: string }[];
+  relatedJobSlugs: string[];
+  updatedAt: string;
+  sources?: { label: string; url?: string }[];
 }
 
 export interface JobRecommendation {
