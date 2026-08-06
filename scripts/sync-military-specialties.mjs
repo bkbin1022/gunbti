@@ -13,13 +13,15 @@ async function fetchPage(pageNo) {
   if (process.env.MMA_DEBUG === "1" && pageNo === 1) {
     console.log(JSON.stringify(payload, null, 2));
   }
-  const body = payload?.response?.body; const header = payload?.response?.header;
+  const body = payload?.response?.body ?? payload?.body ?? payload;
+  const header = payload?.response?.header ?? payload?.header;
   if (header?.resultCode && header.resultCode !== "00") throw new Error("병무청 API 오류: " + header.resultMsg);
-  return { items: body?.items?.item ?? [], totalCount: Number(body?.totalCount ?? 0) };
+  const rawItems = body?.items?.item ?? body?.items ?? [];
+  return { items: Array.isArray(rawItems) ? rawItems : [rawItems], totalCount: Number(body?.totalCount ?? payload?.totalCount ?? 0) };
 }
 const first = await fetchPage(1); const pages = Math.max(1, Math.ceil(first.totalCount / 100)); const records = [...first.items];
 for (let page = 2; page <= pages; page += 1) { const next = await fetchPage(page); records.push(...next.items); }
-const officialMaster = records.map((item) => ({ id: "mma-" + item.mbteukgiNo, specialtyCode: item.gsteukgiCd || undefined, officialName: item.gsteukgiNm || "이름 미확인", branch: item.gunGbnm || "군 구분 미확인", recruitmentCategory: item.mjbgteukgiNm || undefined, recruitmentCode: item.mjbgteukgiCd || undefined, recruitmentSchedule: { year: item.mojipYy || undefined, round: item.mojipTms || undefined, plannedStartMonth: item.iyyjsijakYm || undefined, plannedEndMonth: item.iyyjjongryoYm || undefined }, source: { authority: "official", label: "병무청 군사특기마스터 OpenAPI", endpoint, retrievedAt: new Date().toISOString() } }));
+const officialMaster = records.filter(Boolean).map((item) => ({ id: "mma-" + item.mbteukgiNo, specialtyCode: item.gsteukgiCd || undefined, officialName: item.gsteukgiNm || "이름 미확인", branch: item.gunGbnm || "군 구분 미확인", recruitmentCategory: item.mjgubNm || item.mjbgteukgiNm || undefined, recruitmentCode: item.mjgbCd || item.mjbgteukgiCd || undefined, recruitmentSchedule: { year: item.mojipYy || undefined, round: item.mojipTms || undefined, plannedStartMonth: item.iyyjsijakYm || undefined, plannedEndMonth: item.iyyjjongryoYm || undefined }, source: { authority: "official", label: "병무청 군사특기마스터 OpenAPI", endpoint, retrievedAt: new Date().toISOString() } }));
 const outputDirectory = join(process.cwd(), "data", "military", "generated");
 await mkdir(outputDirectory, { recursive: true });
 await writeFile(join(outputDirectory, "official-specialty-master.json"), JSON.stringify({ sourceVersion: "MMA_OPENAPI_0004", retrievedAt: new Date().toISOString(), totalCount: officialMaster.length, records: officialMaster }, null, 2) + "\n", "utf8");
