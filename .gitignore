@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+data/military/raw/
+data/military/snapshots/
+data/reports/
 
 # vercel
 .vercel

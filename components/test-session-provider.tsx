@@ -3,6 +3,7 @@
 import { createContext, useContext, useEffect, useMemo, useReducer, useState, type ReactNode } from "react";
 
 import { calculateTraitProfile, getRecommendations } from "@/lib/recommendation";
+import { currentDatasetVersion, recommendationAlgorithmVersion } from "@/lib/dataset-version";
 import type { TestSession, UserGoal } from "@/lib/recommendation-types";
 
 const storageKey = "teukgeup-honeybee-sprint-2";
@@ -20,7 +21,7 @@ function reducer(state: TestSession, action: Action): TestSession {
   if (action.type === "goal") return { ...state, selectedGoal: action.goal, recommendations: [] };
   if (action.type === "complete") {
     const traitProfile = calculateTraitProfile(state.answers);
-    return { ...state, traitProfile, recommendations: getRecommendations(traitProfile, state.selectedGoal), completedAt: new Date().toISOString() };
+    return { ...state, traitProfile, recommendations: getRecommendations(traitProfile, state.selectedGoal), datasetVersion: currentDatasetVersion, algorithmVersion: recommendationAlgorithmVersion, completedAt: new Date().toISOString() };
   }
   if (action.type === "replace") return action.session;
   return initialSession;

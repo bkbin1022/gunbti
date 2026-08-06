@@ -1,70 +1,197 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { createHash, randomUUID } from "node:crypto";
+import { mkdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+
 const endpoint = "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list";
+const root = join(process.cwd(), "data", "military");
+const snapshotDirectory = join(root, "snapshots");
+const rawDirectory = join(root, "raw");
+const reviewDirectory = join(process.cwd(), "data", "review");
+const generatedDirectory = join(root, "generated");
+const activeSnapshotPath = join(snapshotDirectory, "active.json");
+const lockPath = join(snapshotDirectory, ".sync-lock");
+const isDryRun = process.argv.includes("--dry-run");
 const rawServiceKey = process.env.MILITARY_KEY;
 const serviceKey = rawServiceKey ? decodeURIComponent(rawServiceKey) : "";
-if (!serviceKey) throw new Error("MILITARY_KEY가 없습니다. .env.local에 넣은 뒤 다시 실행하세요.");
-async function fetchPage(pageNo) {
-  const url = new URL(endpoint);
-  url.search = new URLSearchParams({ ServiceKey: serviceKey, numOfRows: "100", pageNo: String(pageNo), type: "json" }).toString();
-  const response = await fetch(url);
-  if (!response.ok) throw new Error("병무청 API 요청 실패: HTTP " + response.status);
-  const payload = await response.json();
-  if (process.env.MMA_DEBUG === "1" && pageNo === 1) {
-    console.log(JSON.stringify(payload, null, 2));
-  }
-  const body = payload?.response?.body ?? payload?.body ?? payload;
-  const header = payload?.response?.header ?? payload?.header;
-  if (header?.resultCode && header.resultCode !== "00") throw new Error("병무청 API 오류: " + header.resultMsg);
-  const rawItems = body?.items?.item ?? body?.items ?? [];
-  return { items: Array.isArray(rawItems) ? rawItems : [rawItems], totalCount: Number(body?.totalCount ?? payload?.totalCount ?? 0) };
+const branchMap = new Map([["육군", "army"], ["해군", "navy"], ["공군", "airForce"], ["해병", "marineCorps"], ["ARMY", "army"], ["NAVY", "navy"], ["AIR FORCE", "airForce"], ["MARINE CORPS", "marineCorps"]]);
+const branchLabels = { army: "육군", navy: "해군", airForce: "공군", marineCorps: "해병" };
+const confirmedMappings = new Map([
+  ["army:151.101", "army-intelligence"], ["army:171.101", "army-communications"], ["army:171.104", "army-communications"], ["army:171.105", "army-communications"], ["army:152.101", "army-electronics"], ["army:111292", "army-instructor"], ["army:311.101", "army-administration"], ["army:321.101", "army-military-police"], ["airForce:50", "air-transport"], ["airForce:21", "air-info-comms"], ["airForce:57", "air-info-comms"], ["navy:25", "navy-communications"], ["navy:11.05", "navy-cook"], ["marineCorps:32.01", "marine-logistics"]
+]);
+
+function hash(value) { return createHash("sha256").update(JSON.stringify(value)).digest("hex"); }
+function isRecord(value) { return Boolean(value) && typeof value === "object" && !Array.isArray(value); }
+function text(value) { const normalized = typeof value === "string" || typeof value === "number" ? String(value).replace(/\s+/g, " ").trim() : ""; return normalized || undefined; }
+function array(value) { return Array.isArray(value) ? value : value === undefined || value === null ? [] : [value]; }
+function emptyRequirements() { return { physical: [], vision: [], license: [], education: [], interview: [], other: [] }; }
+function normalizeBranch(value, warnings) {
+  const key = text(value)?.toUpperCase();
+  const branch = key ? branchMap.get(key) : undefined;
+  if (!branch) warnings.push("UNKNOWN_BRANCH:" + (text(value) || "empty"));
+  return branch;
 }
-const first = await fetchPage(1); const pages = Math.max(1, Math.ceil(first.totalCount / 100)); const records = [...first.items];
-for (let page = 2; page <= pages; page += 1) { const next = await fetchPage(page); records.push(...next.items); }
-const retrievedAt = new Date().toISOString();
-const specialtiesByKey = new Map();
-
-for (const item of records.filter(Boolean)) {
-  const specialtyCode = item.gsteukgiCd || undefined;
-  const officialName = item.gsteukgiNm || "이름 미확인";
-  const branch = item.gunGbnm || "군 구분 미확인";
-  const key = [branch, specialtyCode || officialName].join("::");
-  const recruitmentCategory = item.mjgubNm || item.mjbgteukgiNm || undefined;
-  const recruitmentCode = item.mjgbCd || item.mjbgteukgiCd || undefined;
-  const existing = specialtiesByKey.get(key);
-
-  if (existing) {
-    existing.observedRecruitmentCount += 1;
-    if (recruitmentCategory && !existing.recruitmentCategories.includes(recruitmentCategory)) {
-      existing.recruitmentCategories.push(recruitmentCategory);
-    }
-    if (recruitmentCode && !existing.recruitmentCodes.includes(recruitmentCode)) {
-      existing.recruitmentCodes.push(recruitmentCode);
-    }
-    continue;
-  }
-
-  specialtiesByKey.set(key, {
-    id: "mma-" + (specialtyCode || item.mbteukgiNo),
-    specialtyCode,
-    officialName,
+function readValue(record, ...keys) { for (const key of keys) { const value = text(record[key]); if (value) return value; } return undefined; }
+function normalizeRecord(item, fetchedAt) {
+  if (!isRecord(item)) return { record: null, warning: "INVALID_ITEM_NOT_OBJECT" };
+  const warnings = [];
+  const branch = normalizeBranch(item.gunGbnm ?? item.gunGbcd, warnings);
+  const officialName = readValue(item, "gsteukgiNm");
+  const specialtyCode = readValue(item, "gsteukgiCd");
+  if (!branch || !officialName) return { record: null, warning: warnings.concat(!officialName ? ["MISSING_OFFICIAL_NAME"] : []).join(",") || "INVALID_ITEM" };
+  const recruitmentCategory = readValue(item, "mjgubNm", "mjbgteukgiNm");
+  const recruitmentCode = readValue(item, "mjgbCd", "mjbgteukgiCd");
+  const recruitmentYearText = readValue(item, "mojipYy");
+  const recruitmentYear = recruitmentYearText && /^\d{4}$/.test(recruitmentYearText) ? Number(recruitmentYearText) : undefined;
+  if (recruitmentYearText && !recruitmentYear) warnings.push("INVALID_RECRUITMENT_YEAR");
+  return { record: {
+    sourceRecordId: `${branch}:${specialtyCode || officialName}`,
     branch,
-    recruitmentCategories: recruitmentCategory ? [recruitmentCategory] : [],
-    recruitmentCodes: recruitmentCode ? [recruitmentCode] : [],
+    officialName,
+    specialtyCode,
+    recruitmentCategory,
+    recruitmentCode,
+    currentRecruitmentStatus: "unknown",
+    officialSummary: undefined,
+    relatedMajors: [],
+    relatedLicenses: [],
+    requirements: emptyRequirements(),
+    recruitmentRound: readValue(item, "mojipTms"),
+    recruitmentYear,
+    sourceUrl: endpoint,
+    fetchedAt,
+    sourceUpdatedAt: undefined,
+    normalizationWarnings: warnings,
     observedRecruitmentCount: 1,
-    source: {
-      authority: "official",
-      label: "병무청 군사특기마스터 OpenAPI",
-      endpoint,
-      retrievedAt,
-    },
-  });
+  }, warning: null };
+}
+function compatibleMaster(snapshot) {
+  return {
+    sourceVersion: "MMA_OPENAPI_0004",
+    retrievedAt: snapshot.sourceFetchedAt,
+    rawRecruitmentRecordCount: snapshot.recordCount,
+    specialtyCount: snapshot.officialRecords.length,
+    records: snapshot.officialRecords.map((record) => ({
+      id: `mma-${record.sourceRecordId}`,
+      specialtyCode: record.specialtyCode,
+      officialName: record.officialName,
+      branch: branchLabels[record.branch],
+      recruitmentCategories: record.recruitmentCategory ? [record.recruitmentCategory] : [],
+      recruitmentCodes: record.recruitmentCode ? [record.recruitmentCode] : [],
+      observedRecruitmentCount: record.observedRecruitmentCount,
+      source: { authority: "official", label: "병무청 군사특기마스터 OpenAPI", endpoint, retrievedAt: snapshot.sourceFetchedAt },
+    })),
+  };
+}
+async function pause(milliseconds) { await new Promise((resolve) => setTimeout(resolve, milliseconds)); }
+async function fetchPage(pageNo) {
+  let finalError;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const url = new URL(endpoint);
+      url.search = new URLSearchParams({ ServiceKey: serviceKey, numOfRows: "100", pageNo: String(pageNo), type: "json" }).toString();
+      const response = await fetch(url, { signal: AbortSignal.timeout(10_000) });
+      if (response.status === 401 || response.status === 403) throw new Error("API_AUTHENTICATION");
+      if (response.status === 429) throw new Error("API_RATE_LIMIT");
+      if (!response.ok) throw new Error(response.status >= 500 ? "API_SERVER_ERROR" : "API_HTTP_" + response.status);
+      const payload = await response.json();
+      if (!isRecord(payload)) throw new Error("API_SCHEMA_CHANGED");
+      const body = isRecord(payload.response) && isRecord(payload.response.body) ? payload.response.body : isRecord(payload.body) ? payload.body : payload;
+      const header = isRecord(payload.response) && isRecord(payload.response.header) ? payload.response.header : isRecord(payload.header) ? payload.header : undefined;
+      if (header && text(header.resultCode) && text(header.resultCode) !== "00") throw new Error("API_PROVIDER_ERROR");
+      const itemsContainer = isRecord(body.items) ? body.items : {};
+      const items = array(itemsContainer.item ?? body.items).filter(isRecord);
+      const totalCount = Number(text(body.totalCount ?? payload.totalCount) || 0);
+      if (!Number.isFinite(totalCount) || totalCount < 0) throw new Error("API_SCHEMA_CHANGED");
+      return { payload, items, totalCount };
+    } catch (error) {
+      finalError = error;
+      const code = error instanceof Error ? error.message : "UNKNOWN_ERROR";
+      const retriable = ["API_RATE_LIMIT", "API_SERVER_ERROR"].includes(code) || code.startsWith("API_HTTP_5") || code === "fetch failed" || code === "The operation was aborted due to timeout";
+      if (!retriable || attempt === 3) break;
+      await pause(250 * (2 ** (attempt - 1)));
+    }
+  }
+  const message = finalError instanceof Error ? finalError.message : "UNKNOWN_ERROR";
+  throw new Error(message === "fetch failed" ? "API_TIMEOUT" : message);
+}
+async function getActiveSnapshot() { try { return JSON.parse(await readFile(activeSnapshotPath, "utf8")); } catch { return null; } }
+async function writeJsonAtomic(path, value) { const temporary = `${path}.${randomUUID()}.tmp`; await writeFile(temporary, JSON.stringify(value, null, 2) + "\n", "utf8"); await rename(temporary, path); }
+async function acquireLock() {
+  await mkdir(snapshotDirectory, { recursive: true });
+  try { const age = Date.now() - (await stat(lockPath)).mtimeMs; if (age > 15 * 60 * 1000) await rm(lockPath, { force: true }); else return false; } catch { /* lock does not exist */ }
+  await writeFile(lockPath, JSON.stringify({ startedAt: new Date().toISOString() }), "utf8");
+  return true;
+}
+function diffSnapshots(previous, next) {
+  const before = new Map((previous?.officialRecords || []).map((record) => [record.sourceRecordId, record]));
+  const after = new Map(next.officialRecords.map((record) => [record.sourceRecordId, record]));
+  const changes = [];
+  for (const [id, record] of after) {
+    const prior = before.get(id);
+    if (!prior) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "added", severity: "informational", requiresManualReview: false });
+    else if (hash(prior) !== hash(record)) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "contentChanged", severity: "review", requiresManualReview: true });
+  }
+  for (const [id, record] of before) if (!after.has(id)) changes.push({ sourceRecordId: id, branch: record.branch, changeType: "removed", severity: "critical", requiresManualReview: true });
+  return changes;
 }
 
-const officialMaster = [...specialtiesByKey.values()].sort((left, right) =>
-  left.branch.localeCompare(right.branch, "ko-KR") || left.officialName.localeCompare(right.officialName, "ko-KR"),
-);
-const outputDirectory = join(process.cwd(), "data", "military", "generated");
-await mkdir(outputDirectory, { recursive: true });
-await writeFile(join(outputDirectory, "official-specialty-master.json"), JSON.stringify({ sourceVersion: "MMA_OPENAPI_0004", retrievedAt, rawRecruitmentRecordCount: records.length, specialtyCount: officialMaster.length, records: officialMaster }, null, 2) + "\n", "utf8");
-console.log("병무청 공식 특기 마스터 " + officialMaster.length + "건을 저장했습니다. (모집 공고 원본 " + records.length + "건 기준)");
+if (!serviceKey) throw new Error("MILITARY_KEY is required. Add it to .env.local and retry.");
+const startedAt = new Date().toISOString();
+if (!(await acquireLock())) {
+  console.log(JSON.stringify({ status: "alreadyRunning", startedAt, errorCode: "SYNC_ALREADY_RUNNING" }, null, 2));
+  process.exit(0);
+}
+try {
+  const first = await fetchPage(1);
+  if (first.totalCount === 0) throw new Error("UNEXPECTED_ZERO_RECORDS");
+  const pageCount = Math.ceil(first.totalCount / 100);
+  const rawItems = [...first.items];
+  for (let page = 2; page <= pageCount; page += 1) rawItems.push(...(await fetchPage(page)).items);
+  if (!rawItems.length) throw new Error("UNEXPECTED_ZERO_RECORDS");
+  const fetchedAt = new Date().toISOString();
+  const invalidRecords = [];
+  const deduplicated = new Map();
+  for (const item of rawItems) {
+    const normalized = normalizeRecord(item, fetchedAt);
+    if (!normalized.record) { invalidRecords.push(normalized.warning); continue; }
+    const existing = deduplicated.get(normalized.record.sourceRecordId);
+    if (existing) { existing.observedRecruitmentCount += 1; continue; }
+    deduplicated.set(normalized.record.sourceRecordId, normalized.record);
+  }
+  const officialRecords = [...deduplicated.values()].sort((left, right) => left.branch.localeCompare(right.branch) || left.officialName.localeCompare(right.officialName, "ko-KR"));
+  if (!officialRecords.length) throw new Error("NO_VALID_RECORDS");
+  const unmatched = officialRecords.filter((record) => !confirmedMappings.has(record.sourceRecordId));
+  const snapshot = {
+    id: `mma-${fetchedAt.replace(/[:.]/g, "-")}`,
+    schemaVersion: "1.0.0",
+    dataVersion: `official-${fetchedAt.slice(0, 10)}`,
+    createdAt: new Date().toISOString(),
+    sourceFetchedAt: fetchedAt,
+    recordCount: rawItems.length,
+    validRecordCount: officialRecords.length,
+    invalidRecordCount: invalidRecords.length,
+    matchedRecordCount: officialRecords.length - unmatched.length,
+    unmatchedRecordCount: unmatched.length,
+    officialRecords,
+    warnings: invalidRecords,
+    sourceHash: hash(rawItems),
+  };
+  const previous = await getActiveSnapshot();
+  const changes = diffSnapshots(previous, snapshot);
+  const result = { status: previous?.sourceHash === snapshot.sourceHash ? "noChanges" : invalidRecords.length ? "partialSuccess" : "success", startedAt, completedAt: new Date().toISOString(), fetchedRecords: rawItems.length, validRecords: officialRecords.length, invalidRecords: invalidRecords.length, matchedRecords: snapshot.matchedRecordCount, unmatchedRecords: unmatched.length, addedRecords: changes.filter((change) => change.changeType === "added").length, updatedRecords: changes.filter((change) => change.changeType === "contentChanged").length, removedRecords: changes.filter((change) => change.changeType === "removed").length, unchangedRecords: previous ? Math.max(0, officialRecords.length - changes.length) : 0, warnings: invalidRecords, errors: [], snapshotId: snapshot.id };
+  if (!isDryRun && result.status !== "noChanges") {
+    await Promise.all([mkdir(rawDirectory, { recursive: true }), mkdir(reviewDirectory, { recursive: true }), mkdir(generatedDirectory, { recursive: true })]);
+    await writeJsonAtomic(join(rawDirectory, `${snapshot.id}.json`), { provider: "MMA_OPENAPI_0004", endpoint, fetchedAt, payload: rawItems, payloadHash: snapshot.sourceHash });
+    await writeJsonAtomic(join(snapshotDirectory, `${snapshot.id}.json`), { ...snapshot, changes });
+    await writeJsonAtomic(activeSnapshotPath, { ...snapshot, changes });
+    await writeJsonAtomic(join(reviewDirectory, "unmatched-specialties.json"), unmatched.map((record) => ({ sourceRecordId: record.sourceRecordId, branch: record.branch, officialName: record.officialName, specialtyCode: record.specialtyCode, candidateInternalIds: [], status: "unreviewed" })));
+    await writeJsonAtomic(join(generatedDirectory, "official-specialty-master.json"), compatibleMaster(snapshot));
+  }
+  console.log(JSON.stringify(result, null, 2));
+} catch (error) {
+  const code = error instanceof Error ? error.message : "UNKNOWN_ERROR";
+  console.error(JSON.stringify({ status: "failed", startedAt, completedAt: new Date().toISOString(), errorCode: code }, null, 2));
+  process.exitCode = 1;
+} finally {
+  await rm(lockPath, { force: true });
+}

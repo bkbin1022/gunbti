@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "sync:specialties": "node --env-file=.env.local scripts/sync-military-specialties.mjs"
+    "sync:specialties": "node --env-file=.env.local scripts/sync-military-specialties.mjs",
+    "validate:data": "node scripts/validate-specialty-data.mjs",
+    "test": "node --test tests/official-specialty-data.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

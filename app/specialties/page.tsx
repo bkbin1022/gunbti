@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { SpecialtyDirectory } from "@/components/specialty-directory";
-import { officialSpecialties, officialSpecialtyCounts, type OfficialBranch } from "@/lib/official-specialties";
+import { getActiveOfficialSpecialties } from "@/lib/official-specialty-store";
+import type { OfficialBranch } from "@/lib/official-specialties";
 
 const branchOrder: OfficialBranch[] = ["육군", "해군", "공군", "해병"];
 
-export default function SpecialtiesPage() {
+export default async function SpecialtiesPage() {
+  const specialties = await getActiveOfficialSpecialties();
+  const specialtyCounts = Object.fromEntries(branchOrder.map((branch) => [branch, specialties.filter((specialty) => specialty.branch === branch).length])) as Record<OfficialBranch, number>;
   return (
     <main className="min-h-screen bg-stone-50 px-5 py-8 text-stone-950">
       <div className="mx-auto max-w-6xl">
@@ -15,9 +18,9 @@ export default function SpecialtiesPage() {
           <p className="mt-4 max-w-2xl leading-7 text-emerald-50">특기명·군종·모집 분류는 병무청 공개 API에서 동기화했습니다. 실제 모집 가능 여부와 지원 조건은 모집 공고에서 다시 확인해 주세요.</p>
         </header>
         <div className="mt-6 flex flex-wrap gap-2">
-          {branchOrder.map((branch) => <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-stone-700 shadow-sm" key={branch}>{branch} {officialSpecialtyCounts[branch]}개</span>)}
+          {branchOrder.map((branch) => <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-stone-700 shadow-sm" key={branch}>{branch} {specialtyCounts[branch]}개</span>)}
         </div>
-        <SpecialtyDirectory specialties={officialSpecialties} />
+        <SpecialtyDirectory specialties={specialties} />
       </div>
     </main>
   );

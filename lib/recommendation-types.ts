@@ -50,6 +50,8 @@ export interface TestSession {
   traitProfile: TraitProfile | null;
   selectedGoal: UserGoal | null;
   recommendations: JobRecommendation[];
+  datasetVersion?: import("@/lib/dataset-version").DatasetVersion;
+  algorithmVersion?: string;
   completedAt?: string;
 }
 

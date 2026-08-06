@@ -1,5 +1,18 @@
 # 특급꿀벌
 
+## Sprint 6 data operations
+
+The official specialty master is synchronized only by a server-side CLI. Public pages use the bundled verified fallback and never call the external API from a browser.
+
+```bash
+npm run validate:data
+npm run sync:specialties -- --dry-run
+npm run sync:specialties
+npm run test
+```
+
+See `docs/API_INTEGRATION_AUDIT.md`, `docs/data-pipeline.md`, and `docs/synchronization-runbook.md` before enabling automated synchronization. `MILITARY_KEY` and `SYNC_SPECIALTIES_SECRET` are server-only secrets and must never be committed.
+
 특급꿀벌은 성향 기반으로 군 직무를 가볍게 탐색하는 한국어 웹서비스 MVP입니다. 결과는 진로 탐색을 돕기 위한 참고 자료이며 실제 선발·보직을 보장하지 않습니다.
 
 ## 시작하기
