@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SpecialtyDirectory } from "@/components/specialty-directory";
 import { officialSpecialties, officialSpecialtyCounts, type OfficialBranch } from "@/lib/official-specialties";
 
 const branchOrder: OfficialBranch[] = ["육군", "해군", "공군", "해병"];
@@ -16,19 +17,7 @@ export default function SpecialtiesPage() {
         <div className="mt-6 flex flex-wrap gap-2">
           {branchOrder.map((branch) => <span className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-stone-700 shadow-sm" key={branch}>{branch} {officialSpecialtyCounts[branch]}개</span>)}
         </div>
-        {branchOrder.map((branch) => {
-          const specialties = officialSpecialties.filter((specialty) => specialty.branch === branch);
-          return <section className="mt-10" key={branch}>
-            <h2 className="text-2xl font-bold">{branch} 특기</h2>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {specialties.map((specialty) => <Link className="rounded-2xl border border-stone-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-sm" href={`/specialties/${specialty.slug}`} key={specialty.id}>
-                <p className="text-sm font-semibold text-emerald-700">{specialty.specialtyCode ?? "코드 미표기"}</p>
-                <h3 className="mt-2 text-lg font-bold">{specialty.name}</h3>
-                <p className="mt-3 text-sm leading-6 text-stone-600">{specialty.recruitmentCategories.join(" · ") || "모집 분류 미표기"}</p>
-              </Link>)}
-            </div>
-          </section>;
-        })}
+        <SpecialtyDirectory specialties={officialSpecialties} />
       </div>
     </main>
   );
