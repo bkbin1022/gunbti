@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "군BTI | 나에게 맞는 군 직무 찾기",
-  description: "성향 기반 군 직무 추천 서비스 군BTI",
+  title: "특급꿀벌 | 내 성향에 딱 맞는 군 직무 찾기",
+  description: "가볍게 탐색하는 성향 기반 군 직무 추천 서비스, 특급꿀벌",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {

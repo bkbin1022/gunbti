@@ -1,4 +1,4 @@
-# 군BTI MVP PRD
+# 특급꿀벌 MVP PRD
 
 ## 목표
 
