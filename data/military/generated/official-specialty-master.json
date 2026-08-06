@@ -1,0 +1,5499 @@
+{
+  "sourceVersion": "MMA_OPENAPI_0004",
+  "retrievedAt": "2026-08-06T13:41:50.986Z",
+  "rawRecruitmentRecordCount": 8598,
+  "specialtyCount": 289,
+  "records": [
+    {
+      "id": "mma-45.01",
+      "specialtyCode": "45.01",
+      "officialName": "교육훈련_3D모델링",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "교육훈련매체개발병"
+      ],
+      "recruitmentCodes": [
+        "L"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-45.03",
+      "specialtyCode": "45.03",
+      "officialName": "교육훈련_디자인",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "교육훈련매체개발병"
+      ],
+      "recruitmentCodes": [
+        "L"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-45.04",
+      "specialtyCode": "45.04",
+      "officialName": "교육훈련_영상/사진",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "교육훈련매체개발병"
+      ],
+      "recruitmentCodes": [
+        "L"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-45.02",
+      "specialtyCode": "45.02",
+      "officialName": "교육훈련_프로그램개발",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "교육훈련매체개발병"
+      ],
+      "recruitmentCodes": [
+        "L"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-34",
+      "specialtyCode": "34",
+      "officialName": "군견관리병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "군견관리병"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-25",
+      "specialtyCode": "25",
+      "officialName": "군악병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "군악병"
+      ],
+      "recruitmentCodes": [
+        "3"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-18",
+      "specialtyCode": "18",
+      "officialName": "기계",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55",
+      "specialtyCode": "55",
+      "officialName": "무인항공기운용병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "무인항공기운용병"
+      ],
+      "recruitmentCodes": [
+        "W"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-46",
+      "specialtyCode": "46",
+      "officialName": "비파괴검사병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "비파괴검사병"
+      ],
+      "recruitmentCodes": [
+        "N"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-42.03",
+      "specialtyCode": "42.03",
+      "officialName": "식별보조_러시아어",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "식별보조병"
+      ],
+      "recruitmentCodes": [
+        "I"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-42.02",
+      "specialtyCode": "42.02",
+      "officialName": "식별보조_일본어",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "식별보조병"
+      ],
+      "recruitmentCodes": [
+        "I"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-42.01",
+      "specialtyCode": "42.01",
+      "officialName": "식별보조_중국어",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "식별보조병"
+      ],
+      "recruitmentCodes": [
+        "I"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-26",
+      "specialtyCode": "26",
+      "officialName": "어학병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-47",
+      "specialtyCode": "47",
+      "officialName": "우주기상분석병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "우주기상분석병"
+      ],
+      "recruitmentCodes": [
+        "O"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-50",
+      "specialtyCode": "50",
+      "officialName": "운항관리병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "운항관리병"
+      ],
+      "recruitmentCodes": [
+        "R"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-902",
+      "specialtyCode": "902",
+      "officialName": "유급_기관.기체",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-905",
+      "specialtyCode": "905",
+      "officialName": "유급_전력설비",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-903",
+      "specialtyCode": "903",
+      "officialName": "유급_전자",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-904",
+      "specialtyCode": "904",
+      "officialName": "유급_조리",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-906",
+      "specialtyCode": "906",
+      "officialName": "유급_토목건축",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-17",
+      "specialtyCode": "17",
+      "officialName": "의무",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-24",
+      "specialtyCode": "24",
+      "officialName": "의장병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "의장병"
+      ],
+      "recruitmentCodes": [
+        "2"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-111",
+      "specialtyCode": "111",
+      "officialName": "일반(연모집)",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "일반기술병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "Z"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-44",
+      "specialtyCode": "44",
+      "officialName": "전문자격의무병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문자격의무병"
+      ],
+      "recruitmentCodes": [
+        "K"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-15",
+      "specialtyCode": "15",
+      "officialName": "전자계산",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-30",
+      "specialtyCode": "30",
+      "officialName": "정보보호병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "정보보호병"
+      ],
+      "recruitmentCodes": [
+        "8"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-57",
+      "specialtyCode": "57",
+      "officialName": "정보체계개발병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "정보체계개발병"
+      ],
+      "recruitmentCodes": [
+        "Y"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-40",
+      "specialtyCode": "40",
+      "officialName": "정훈병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "정훈병"
+      ],
+      "recruitmentCodes": [
+        "G"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-53",
+      "specialtyCode": "53",
+      "officialName": "조리병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "조리병"
+      ],
+      "recruitmentCodes": [
+        "U"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-19",
+      "specialtyCode": "19",
+      "officialName": "차량운전",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-20",
+      "specialtyCode": "20",
+      "officialName": "차량정비",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-41.01",
+      "specialtyCode": "41.01",
+      "officialName": "콘텐츠_그래픽디자인",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "콘텐츠제작병"
+      ],
+      "recruitmentCodes": [
+        "H"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-41.02",
+      "specialtyCode": "41.02",
+      "officialName": "콘텐츠_영상촬영편집",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "콘텐츠제작병"
+      ],
+      "recruitmentCodes": [
+        "H"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-41.03",
+      "specialtyCode": "41.03",
+      "officialName": "콘텐츠_일러스트웹툰",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "콘텐츠제작병"
+      ],
+      "recruitmentCodes": [
+        "H"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-21",
+      "specialtyCode": "21",
+      "officialName": "통신전자전기",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-31",
+      "specialtyCode": "31",
+      "officialName": "특수임무군사경찰",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "특수임무군사경찰"
+      ],
+      "recruitmentCodes": [
+        "A"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-16",
+      "specialtyCode": "16",
+      "officialName": "화생방",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-56",
+      "specialtyCode": "56",
+      "officialName": "AI·데이터개발병",
+      "branch": "공군",
+      "recruitmentCategories": [
+        "AI·데이터개발병"
+      ],
+      "recruitmentCodes": [
+        "X"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B182.101",
+      "specialtyCode": "B182.101",
+      "officialName": "(임기제)공격헬기정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B163.113",
+      "specialtyCode": "B163.113",
+      "officialName": "(임기제)굴착기운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B182.104",
+      "specialtyCode": "B182.104",
+      "officialName": "(임기제)기동헬기운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B175.101",
+      "specialtyCode": "B175.101",
+      "officialName": "(임기제)네트워크운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B171.102",
+      "specialtyCode": "B171.102",
+      "officialName": "(임기제)무선전송장비운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B141.101",
+      "specialtyCode": "B141.101",
+      "officialName": "(임기제)발칸운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B172.102",
+      "specialtyCode": "B172.102",
+      "officialName": "(임기제)위성운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B222.109",
+      "specialtyCode": "B222.109",
+      "officialName": "(임기제)자주포야전정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B222.114",
+      "specialtyCode": "B222.114",
+      "officialName": "(임기제)장갑차야전정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B162.104",
+      "specialtyCode": "B162.104",
+      "officialName": "(임기제)전기설비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B175.102",
+      "specialtyCode": "B175.102",
+      "officialName": "(임기제)전술C4I운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B222.105",
+      "specialtyCode": "B222.105",
+      "officialName": "(임기제)전차정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B231.107",
+      "specialtyCode": "B231.107",
+      "officialName": "(임기제)조리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B241.107",
+      "specialtyCode": "B241.107",
+      "officialName": "(임기제)차량부대정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B224.101",
+      "specialtyCode": "B224.101",
+      "officialName": "(임기제)차량정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B222.101",
+      "specialtyCode": "B222.101",
+      "officialName": "(임기제)총기정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B225.101",
+      "specialtyCode": "B225.101",
+      "officialName": "(임기제)탄약관리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B222.102",
+      "specialtyCode": "B222.102",
+      "officialName": "(임기제)화포정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B131.107",
+      "specialtyCode": "B131.107",
+      "officialName": "(임기제)K-9자주포조종",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B131.108",
+      "specialtyCode": "B131.108",
+      "officialName": "(임기제)K-9자주포화포/장갑정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B121.101",
+      "specialtyCode": "B121.101",
+      "officialName": "(임기제)K계열전차승무",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B172.101",
+      "specialtyCode": "B172.101",
+      "officialName": "(임기제)MW운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-131.103",
+      "specialtyCode": "131.103",
+      "officialName": "155mm자주포병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-321273",
+      "specialtyCode": "321273",
+      "officialName": "33경호병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-153.101",
+      "specialtyCode": "153.101",
+      "officialName": "감시장비운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.104",
+      "specialtyCode": "241.104",
+      "officialName": "견인차량운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M241.104",
+      "specialtyCode": "M241.104",
+      "officialName": "견인차량운전(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-131.101",
+      "specialtyCode": "131.101",
+      "officialName": "견인포병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.107",
+      "specialtyCode": "163.107",
+      "officialName": "공기압축기운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.102",
+      "specialtyCode": "224.102",
+      "officialName": "공병장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341.101",
+      "specialtyCode": "341.101",
+      "officialName": "공보정훈",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.103",
+      "specialtyCode": "163.103",
+      "officialName": "교량전차조종",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-171.107",
+      "specialtyCode": "171.107",
+      "officialName": "교환시설운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.109",
+      "specialtyCode": "241.109",
+      "officialName": "구난차량운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M241.109",
+      "specialtyCode": "M241.109",
+      "officialName": "구난차량운전(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-E00001",
+      "specialtyCode": "E00001",
+      "officialName": "국군체육특기병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-321.101",
+      "specialtyCode": "321.101",
+      "officialName": "군사경찰",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-900101",
+      "specialtyCode": "900101",
+      "officialName": "군사과학기술병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-151.101",
+      "specialtyCode": "151.101",
+      "officialName": "군사정보",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-342.101.",
+      "specialtyCode": "342.101.",
+      "officialName": "군악",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.113",
+      "specialtyCode": "163.113",
+      "officialName": "굴착기운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M163.113",
+      "specialtyCode": "M163.113",
+      "officialName": "굴착기운용(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341336",
+      "specialtyCode": "341336",
+      "officialName": "그래픽디자이너병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-471277",
+      "specialtyCode": "471277",
+      "officialName": "기독교군종병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-182.104",
+      "specialtyCode": "182.104",
+      "officialName": "기동헬기운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175.101",
+      "specialtyCode": "175.101",
+      "officialName": "네트워크운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.102",
+      "specialtyCode": "163.102",
+      "officialName": "다목적굴착기운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-221.101",
+      "specialtyCode": "221.101",
+      "officialName": "대공포/유도무기정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.109",
+      "specialtyCode": "163.109",
+      "officialName": "도저운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.104",
+      "specialtyCode": "163.104",
+      "officialName": "도하장비조종",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001603",
+      "specialtyCode": "0001603",
+      "officialName": "독일어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-A001",
+      "specialtyCode": "A001",
+      "officialName": "동반입대병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "동반입대병"
+      ],
+      "recruitmentCodes": [
+        "2"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-156101",
+      "specialtyCode": "156101",
+      "officialName": "드론운용/정비병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-152.103",
+      "specialtyCode": "152.103",
+      "officialName": "땅굴탐지",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001606",
+      "specialtyCode": "0001606",
+      "officialName": "러시아어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-174.101",
+      "specialtyCode": "174.101",
+      "officialName": "레이다운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.112",
+      "specialtyCode": "163.112",
+      "officialName": "로더운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-221.102",
+      "specialtyCode": "221.102",
+      "officialName": "로켓무기정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-223.103",
+      "specialtyCode": "223.103",
+      "officialName": "무선장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-171.102",
+      "specialtyCode": "171.102",
+      "officialName": "무선전송장비운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.106",
+      "specialtyCode": "231.106",
+      "officialName": "물자근무지원",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.114",
+      "specialtyCode": "163.114",
+      "officialName": "발전기운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.103",
+      "specialtyCode": "224.103",
+      "officialName": "발전기정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.101",
+      "specialtyCode": "141.101",
+      "officialName": "발칸운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-143.101",
+      "specialtyCode": "143.101",
+      "officialName": "방공레이더운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.104",
+      "specialtyCode": "141.104",
+      "officialName": "방공작전통제",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-211295",
+      "specialtyCode": "211295",
+      "officialName": "방사능분석연구보조병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-162.103",
+      "specialtyCode": "162.103",
+      "officialName": "배관/기계설비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M162.103",
+      "specialtyCode": "M162.103",
+      "officialName": "배관/기계설비(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-471279",
+      "specialtyCode": "471279",
+      "officialName": "불교군종병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.103",
+      "specialtyCode": "141.103",
+      "officialName": "비호운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-133.103",
+      "specialtyCode": "133.103",
+      "officialName": "사격지휘",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175106",
+      "specialtyCode": "175106",
+      "officialName": "사이버작전병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341.103",
+      "specialtyCode": "341.103",
+      "officialName": "사진운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341337",
+      "specialtyCode": "341337",
+      "officialName": "사진콘텐츠디자이너병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-243.102",
+      "specialtyCode": "243.102",
+      "officialName": "선박운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M243.102",
+      "specialtyCode": "M243.102",
+      "officialName": "선박운용(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-162.102",
+      "specialtyCode": "162.102",
+      "officialName": "소방장비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M241.100",
+      "specialtyCode": "M241.100",
+      "officialName": "수송운용(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.100",
+      "specialtyCode": "241.100",
+      "officialName": "수송운용(차량운전)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001602",
+      "specialtyCode": "0001602",
+      "officialName": "스페인어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-152101",
+      "specialtyCode": "152101",
+      "officialName": "신호정보/전자전운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-152.101",
+      "specialtyCode": "152.101",
+      "officialName": "신호정보/전자전운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001610",
+      "specialtyCode": "0001610",
+      "officialName": "아랍어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-173.101",
+      "specialtyCode": "173.101",
+      "officialName": "암호운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-161.104",
+      "specialtyCode": "161.104",
+      "officialName": "야전건설",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M161.104",
+      "specialtyCode": "M161.104",
+      "officialName": "야전건설(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-161.101",
+      "specialtyCode": "161.101",
+      "officialName": "야전공병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-H001",
+      "specialtyCode": "H001",
+      "officialName": "연고지복무병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "연고지복무병"
+      ],
+      "recruitmentCodes": [
+        "B"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.104",
+      "specialtyCode": "231.104",
+      "officialName": "연료관리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-211.102",
+      "specialtyCode": "211.102",
+      "officialName": "연막",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341.102",
+      "specialtyCode": "341.102",
+      "officialName": "영상제작",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-341335",
+      "specialtyCode": "341335",
+      "officialName": "영상콘텐츠디자이너병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001600",
+      "specialtyCode": "0001600",
+      "officialName": "영어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.102",
+      "specialtyCode": "231.102",
+      "officialName": "영현등록",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.102",
+      "specialtyCode": "141.102",
+      "officialName": "오리콘운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.104",
+      "specialtyCode": "224.104",
+      "officialName": "용접/기계공작",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M224.104",
+      "specialtyCode": "M224.104",
+      "officialName": "용접/기계공작(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-172.102",
+      "specialtyCode": "172.102",
+      "officialName": "위성운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-223.101",
+      "specialtyCode": "223.101",
+      "officialName": "유선장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-411294",
+      "specialtyCode": "411294",
+      "officialName": "유해발굴감식병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-111275",
+      "specialtyCode": "111275",
+      "officialName": "유해발굴기록병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.107",
+      "specialtyCode": "224.107",
+      "officialName": "의무장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-111284",
+      "specialtyCode": "111284",
+      "officialName": "의장병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-171.104",
+      "specialtyCode": "171.104",
+      "officialName": "이동통신장비운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y411.101",
+      "specialtyCode": "Y411.101",
+      "officialName": "일반의무(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-311.101",
+      "specialtyCode": "311.101",
+      "officialName": "일반행정",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001604",
+      "specialtyCode": "0001604",
+      "officialName": "일본어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-222.109",
+      "specialtyCode": "222.109",
+      "officialName": "자주포야전정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.101",
+      "specialtyCode": "163.101",
+      "officialName": "장갑전투도저운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-123.102",
+      "specialtyCode": "123.102",
+      "officialName": "장갑차부대정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-222.114",
+      "specialtyCode": "222.114",
+      "officialName": "장갑차야전정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y123.101",
+      "specialtyCode": "Y123.101",
+      "officialName": "장갑차조종(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-226.101",
+      "specialtyCode": "226.101",
+      "officialName": "장비수리부속공구보급",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-161.103",
+      "specialtyCode": "161.103",
+      "officialName": "장애물운용(E)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-161.102",
+      "specialtyCode": "161.102",
+      "officialName": "장애물운용(M)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-331.101",
+      "specialtyCode": "331.101",
+      "officialName": "재정회계",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-162.104",
+      "specialtyCode": "162.104",
+      "officialName": "전기설비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M162.104",
+      "specialtyCode": "M162.104",
+      "officialName": "전기설비(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.101",
+      "specialtyCode": "412.101",
+      "officialName": "전문간호",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.106",
+      "specialtyCode": "412.106",
+      "officialName": "전문물리치료",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.104",
+      "specialtyCode": "412.104",
+      "officialName": "전문방사선촬영",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.105",
+      "specialtyCode": "412.105",
+      "officialName": "전문약제",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.103",
+      "specialtyCode": "412.103",
+      "officialName": "전문임상병리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-412.102",
+      "specialtyCode": "412.102",
+      "officialName": "전문치과",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-171.101",
+      "specialtyCode": "171.101",
+      "officialName": "전술통신장비운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175.102",
+      "specialtyCode": "175.102",
+      "officialName": "전술C4I운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-242.101",
+      "specialtyCode": "242.101",
+      "officialName": "전장이동통제",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-222.105",
+      "specialtyCode": "222.105",
+      "officialName": "전차정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175104",
+      "specialtyCode": "175104",
+      "officialName": "정보보호병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175.103",
+      "specialtyCode": "175.103",
+      "officialName": "정보체계운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-171.105",
+      "specialtyCode": "171.105",
+      "officialName": "정보통신망관리장비운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.105",
+      "specialtyCode": "163.105",
+      "officialName": "정수장비운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.107",
+      "specialtyCode": "231.107",
+      "officialName": "조리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M231.107",
+      "specialtyCode": "M231.107",
+      "officialName": "조리(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001605",
+      "specialtyCode": "0001605",
+      "officialName": "중국어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.105",
+      "specialtyCode": "241.105",
+      "officialName": "지게차운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M241.105",
+      "specialtyCode": "M241.105",
+      "officialName": "지게차운전(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-311334",
+      "specialtyCode": "311334",
+      "officialName": "지식재산관리병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.103",
+      "specialtyCode": "231.103",
+      "officialName": "지원보급",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-D001",
+      "specialtyCode": "D001",
+      "officialName": "직계가족복무부대지원입대병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "직계가족병"
+      ],
+      "recruitmentCodes": [
+        "8"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.107",
+      "specialtyCode": "241.107",
+      "officialName": "차량부대정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-M241.107",
+      "specialtyCode": "M241.107",
+      "officialName": "차량부대정비(중졸)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.101",
+      "specialtyCode": "224.101",
+      "officialName": "차량정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y241.106",
+      "specialtyCode": "Y241.106",
+      "officialName": "차륜형장갑차운전(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.106",
+      "specialtyCode": "141.106",
+      "officialName": "천마운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-471278",
+      "specialtyCode": "471278",
+      "officialName": "천주교군종병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-163.108",
+      "specialtyCode": "163.108",
+      "officialName": "크레인운용",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.113",
+      "specialtyCode": "241.113",
+      "officialName": "크레인차량운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-225.101",
+      "specialtyCode": "225.101",
+      "officialName": "탄약관리",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-152296",
+      "specialtyCode": "152296",
+      "officialName": "탐지분석병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-223.106",
+      "specialtyCode": "223.106",
+      "officialName": "특수통신장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-321102",
+      "specialtyCode": "321102",
+      "officialName": "특임군사경찰",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-112100",
+      "specialtyCode": "112100",
+      "officialName": "특전병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-231.101",
+      "specialtyCode": "231.101",
+      "officialName": "편성보급",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-133.106",
+      "specialtyCode": "133.106",
+      "officialName": "포병레이더",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-133.107",
+      "specialtyCode": "133.107",
+      "officialName": "포병측지",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-0001601",
+      "specialtyCode": "0001601",
+      "officialName": "프랑스어어학병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-181.101",
+      "specialtyCode": "181.101",
+      "officialName": "항공운항/관제",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-243.101",
+      "specialtyCode": "243.101",
+      "officialName": "항만운영",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-134.101",
+      "specialtyCode": "134.101",
+      "officialName": "현무포병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-211.101",
+      "specialtyCode": "211.101",
+      "officialName": "화생방",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-211239",
+      "specialtyCode": "211239",
+      "officialName": "화생방시험병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-224.106",
+      "specialtyCode": "224.106",
+      "officialName": "화생방장비정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-211.104",
+      "specialtyCode": "211.104",
+      "officialName": "화생방정찰",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y211.103",
+      "specialtyCode": "Y211.103",
+      "officialName": "화생방제독(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-331267",
+      "specialtyCode": "331267",
+      "officialName": "회계원가비용분석병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-111292",
+      "specialtyCode": "111292",
+      "officialName": "훈련소조교병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-141.105",
+      "specialtyCode": "141.105",
+      "officialName": "휴대용유도무기운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-111000",
+      "specialtyCode": "111000",
+      "officialName": "JSA경비병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-123.103",
+      "specialtyCode": "123.103",
+      "officialName": "K-21보병전투차량승무",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-241.108",
+      "specialtyCode": "241.108",
+      "officialName": "K-53계열차량운전",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y131.104",
+      "specialtyCode": "Y131.104",
+      "officialName": "K-55자주포조종(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-Y131.107",
+      "specialtyCode": "Y131.107",
+      "officialName": "K-9자주포조종(연모집)",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병(연모집)"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-132.102",
+      "specialtyCode": "132.102",
+      "officialName": "K239포병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-122.101",
+      "specialtyCode": "122.101",
+      "officialName": "K계열전차부대정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-121.101",
+      "specialtyCode": "121.101",
+      "officialName": "K계열전차승무",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-121.102",
+      "specialtyCode": "121.102",
+      "officialName": "M계열전차승무",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-321103",
+      "specialtyCode": "321103",
+      "officialName": "MC군사경찰",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-172.101",
+      "specialtyCode": "172.101",
+      "officialName": "MW운용/정비",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "기술행정병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-175105",
+      "specialtyCode": "175105",
+      "officialName": "SW개발병",
+      "branch": "육군",
+      "recruitmentCategories": [
+        "전문특기병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-A43",
+      "specialtyCode": "A43",
+      "officialName": "(1함대)기관",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-A11",
+      "specialtyCode": "A11",
+      "officialName": "(1함대)일반",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-A11.05",
+      "specialtyCode": "A11.05",
+      "officialName": "(1함대)조리",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B43",
+      "specialtyCode": "B43",
+      "officialName": "(2함대)기관",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B11",
+      "specialtyCode": "B11",
+      "officialName": "(2함대)일반",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-B11.05",
+      "specialtyCode": "B11.05",
+      "officialName": "(2함대)조리",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-C43",
+      "specialtyCode": "C43",
+      "officialName": "(작전사)기관",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-C11.05",
+      "specialtyCode": "C11.05",
+      "officialName": "(작전사)조리",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "복무지역선택병"
+      ],
+      "recruitmentCodes": [
+        "Q"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-46",
+      "specialtyCode": "46",
+      "officialName": "건축/토목",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-36",
+      "specialtyCode": "36",
+      "officialName": "군악병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "군악병"
+      ],
+      "recruitmentCodes": [
+        "3"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-53.01",
+      "specialtyCode": "53.01",
+      "officialName": "군종병_기독교",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "군종병"
+      ],
+      "recruitmentCodes": [
+        "D"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-53.03",
+      "specialtyCode": "53.03",
+      "officialName": "군종병_불교",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "군종병"
+      ],
+      "recruitmentCodes": [
+        "D"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-53.02",
+      "specialtyCode": "53.02",
+      "officialName": "군종병_천주교",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "군종병"
+      ],
+      "recruitmentCodes": [
+        "D"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-43",
+      "specialtyCode": "43",
+      "officialName": "기관",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-802",
+      "specialtyCode": "802",
+      "officialName": "동반_갑판",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "동반입대병"
+      ],
+      "recruitmentCodes": [
+        "8"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-803",
+      "specialtyCode": "803",
+      "officialName": "동반_군사경찰",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "동반입대병"
+      ],
+      "recruitmentCodes": [
+        "8"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-66",
+      "specialtyCode": "66",
+      "officialName": "드론운용정비병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "드론운용정비병"
+      ],
+      "recruitmentCodes": [
+        "R"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-36.01",
+      "specialtyCode": "36.01",
+      "officialName": "문화홍보병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "문화홍보병"
+      ],
+      "recruitmentCodes": [
+        "2"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-57",
+      "specialtyCode": "57",
+      "officialName": "미디어병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "미디어병"
+      ],
+      "recruitmentCodes": [
+        "H"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-63",
+      "specialtyCode": "63",
+      "officialName": "빅데이터분석병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "빅데이터분석병"
+      ],
+      "recruitmentCodes": [
+        "N"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-48",
+      "specialtyCode": "48",
+      "officialName": "수송",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.64",
+      "specialtyCode": "11.64",
+      "officialName": "심해잠수병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "심해잠수병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55.04",
+      "specialtyCode": "55.04",
+      "officialName": "어학병_러시아어",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55.01",
+      "specialtyCode": "55.01",
+      "officialName": "어학병_영어",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55.02",
+      "specialtyCode": "55.02",
+      "officialName": "어학병_일본어",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55.03",
+      "specialtyCode": "55.03",
+      "officialName": "어학병_중국어",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "F"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-64",
+      "specialtyCode": "64",
+      "officialName": "위생관리병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "위생관리병"
+      ],
+      "recruitmentCodes": [
+        "O"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-902",
+      "specialtyCode": "902",
+      "officialName": "유급_기관",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-904",
+      "specialtyCode": "904",
+      "officialName": "유급_전기",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-908",
+      "specialtyCode": "908",
+      "officialName": "유급_조리",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-907",
+      "specialtyCode": "907",
+      "officialName": "유급_통신",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-49",
+      "specialtyCode": "49",
+      "officialName": "의무",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-65",
+      "specialtyCode": "65",
+      "officialName": "인공지능(AI)개발특기병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "인공지능(AI)개발특기병"
+      ],
+      "recruitmentCodes": [
+        "P"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11",
+      "specialtyCode": "11",
+      "officialName": "일반",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-501",
+      "specialtyCode": "501",
+      "officialName": "전기(신규)",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-60",
+      "specialtyCode": "60",
+      "officialName": "전문의무병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "전문의무병"
+      ],
+      "recruitmentCodes": [
+        "K"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-58",
+      "specialtyCode": "58",
+      "officialName": "전문정보병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "전문정보병"
+      ],
+      "recruitmentCodes": [
+        "I"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.02",
+      "specialtyCode": "11.02",
+      "officialName": "전산",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.26",
+      "specialtyCode": "11.26",
+      "officialName": "전자",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-59",
+      "specialtyCode": "59",
+      "officialName": "정보보호병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "정보보호병"
+      ],
+      "recruitmentCodes": [
+        "J"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-500",
+      "specialtyCode": "500",
+      "officialName": "정보통신",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.05",
+      "specialtyCode": "11.05",
+      "officialName": "조리",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-52",
+      "specialtyCode": "52",
+      "officialName": "지식재산관리병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "지식재산관리병"
+      ],
+      "recruitmentCodes": [
+        "B"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-54",
+      "specialtyCode": "54",
+      "officialName": "통번역병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "통번역병"
+      ],
+      "recruitmentCodes": [
+        "E"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-25",
+      "specialtyCode": "25",
+      "officialName": "통신",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.62",
+      "specialtyCode": "11.62",
+      "officialName": "특전병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "특전병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-11.24",
+      "specialtyCode": "11.24",
+      "officialName": "항공",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-62",
+      "specialtyCode": "62",
+      "officialName": "해군과학기술연구병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "해군과학기술연구병"
+      ],
+      "recruitmentCodes": [
+        "M"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-43.39",
+      "specialtyCode": "43.39",
+      "officialName": "화생방",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-61",
+      "specialtyCode": "61",
+      "officialName": "CBT병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "CBT병"
+      ],
+      "recruitmentCodes": [
+        "L"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-56",
+      "specialtyCode": "56",
+      "officialName": "SW개발병",
+      "branch": "해군",
+      "recruitmentCategories": [
+        "SW개발병"
+      ],
+      "recruitmentCodes": [
+        "G"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-19.03",
+      "specialtyCode": "19.03",
+      "officialName": "공병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-66",
+      "specialtyCode": "66",
+      "officialName": "군악병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "군악병"
+      ],
+      "recruitmentCodes": [
+        "2"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-80",
+      "specialtyCode": "80",
+      "officialName": "동반입대병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "동반입대병"
+      ],
+      "recruitmentCodes": [
+        "8"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-101",
+      "specialtyCode": "101",
+      "officialName": "드론운용병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "드론운용병"
+      ],
+      "recruitmentCodes": [
+        "5"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-23.01",
+      "specialtyCode": "23.01",
+      "officialName": "무기정비",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-17.04",
+      "specialtyCode": "17.04",
+      "officialName": "수색",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-32.01",
+      "specialtyCode": "32.01",
+      "officialName": "수송",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-55.01",
+      "specialtyCode": "55.01",
+      "officialName": "어학병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "어학병"
+      ],
+      "recruitmentCodes": [
+        "3"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-903",
+      "specialtyCode": "903",
+      "officialName": "유급_공병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-907",
+      "specialtyCode": "907",
+      "officialName": "유급_무기정비",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-906",
+      "specialtyCode": "906",
+      "officialName": "유급_수송",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-901",
+      "specialtyCode": "901",
+      "officialName": "유급_일반",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-904",
+      "specialtyCode": "904",
+      "officialName": "유급_정보통신",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-905",
+      "specialtyCode": "905",
+      "officialName": "유급_조리",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "임기제부사관"
+      ],
+      "recruitmentCodes": [
+        "9"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-100",
+      "specialtyCode": "100",
+      "officialName": "의장병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "의장병"
+      ],
+      "recruitmentCodes": [
+        "4"
+      ],
+      "observedRecruitmentCount": 29,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-17.01",
+      "specialtyCode": "17.01",
+      "officialName": "일반",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-D001",
+      "specialtyCode": "D001",
+      "officialName": "직계가족복무부대지원입대병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "직계가족병"
+      ],
+      "recruitmentCodes": [
+        "7"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-102",
+      "specialtyCode": "102",
+      "officialName": "콘텐츠운용병",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "콘텐츠운용병"
+      ],
+      "recruitmentCodes": [
+        "6"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    },
+    {
+      "id": "mma-17.05",
+      "specialtyCode": "17.05",
+      "officialName": "화학",
+      "branch": "해병",
+      "recruitmentCategories": [
+        "일반기술/전문기술병"
+      ],
+      "recruitmentCodes": [
+        "1"
+      ],
+      "observedRecruitmentCount": 30,
+      "source": {
+        "authority": "official",
+        "label": "병무청 군사특기마스터 OpenAPI",
+        "endpoint": "https://apis.data.go.kr/1300000/gsTgMastr/list/gsTgMastr/list",
+        "retrievedAt": "2026-08-06T13:41:50.986Z"
+      }
+    }
+  ]
+}
